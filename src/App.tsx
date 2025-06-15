@@ -1,4 +1,3 @@
-
 // src/App.tsx
 import React, { useEffect } from 'react'; 
 import type { ViewName, Call } from './types'; 
