@@ -31,8 +31,6 @@ import type { EmailPayload } from './types/emailTypes';
 import toast from 'react-hot-toast'; 
 import { useUserStore } from './user/stores/userStore'; 
 
-const MOCK_CALL_ID = "mock-active-call-id"; 
-
 const App: React.FC = () => {
   const activeView = useUIStore(state => state.activeView);
   // isSidebarCollapsed is no longer directly used for main content rounding here
@@ -48,8 +46,7 @@ const App: React.FC = () => {
   
   const { sendEmail, sendStatus, error: emailSendError, resetStatus: resetEmailSendStatus } = useEmailSender(); 
 
-  const { addOrUpdateActiveCall, removeActiveCall, setSelectedCallIdForUI: setSelectedCallIdVoip } = useCallStore();
-  const activeVoipCalls = useCallStore(state => state.activeCalls);
+  // Removed mock call logic related to onToggleMockCall
   
   const initializeUsers = useUserStore(state => state.initializeUsers);
   const currentUser = useUserStore(state => state.currentUser); 
@@ -122,28 +119,6 @@ const App: React.FC = () => {
     closeAiDraftEmailModal();
   };
 
-  const handleToggleMockCall = () => {
-    const mockCallExists = activeVoipCalls.some(call => call.id === MOCK_CALL_ID);
-    if (mockCallExists) {
-      removeActiveCall(MOCK_CALL_ID, 'disconnected', 'local_hangup');
-      setSelectedCallIdVoip(null);
-    } else {
-      const mockCallData: Call = {
-        id: MOCK_CALL_ID,
-        from: '123456789',
-        to: '987654321',
-        status: 'ringing_inbound', 
-        direction: 'inbound',
-        startTime: new Date().toISOString(),
-        contactDisplayName: "Mock Caller Inbound",
-        voipSystem: "mock",
-        isMuted: false,
-        isOnHold: false,
-      };
-      addOrUpdateActiveCall(mockCallData);
-      setSelectedCallIdVoip(MOCK_CALL_ID);
-    }
-  };
 
   return (
     <div className="flex h-screen overflow-hidden bg-gray-900 text-gray-100"> 
@@ -152,7 +127,7 @@ const App: React.FC = () => {
       <div className="flex-1 flex flex-col overflow-hidden">
         <Header 
           title={getHeaderTitle()} 
-          onToggleMockCall={handleToggleMockCall} 
+          // onToggleMockCall prop removed
         /> 
         
         <main 

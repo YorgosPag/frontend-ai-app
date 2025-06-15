@@ -15,7 +15,7 @@ import ScrollableContainer from './ScrollableContainer';
 
 interface HeaderProps {
   title: string;
-  onToggleMockCall?: () => void; 
+  onToggleMockCall?: () => void; // Made optional
 }
 
 const Header: React.FC<HeaderProps> = ({ title, onToggleMockCall }) => {
@@ -70,7 +70,7 @@ const Header: React.FC<HeaderProps> = ({ title, onToggleMockCall }) => {
       <h1 className="font-[var(--font-heading)] text-[var(--font-size-xl)] font-[var(--font-weight-bold)] text-gray-200">{title}</h1>
       
       <div className="flex items-center space-x-3 sm:space-x-4">
-        {process.env.NODE_ENV === 'development' && onToggleMockCall && (
+        {onToggleMockCall && ( // Conditionally render the mock call button
           <Button
             variant="secondary"
             size="sm"
