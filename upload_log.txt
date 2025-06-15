@@ -18,3 +18,652 @@
 Switched to a new branch 'main'
 [Κυρ 15/06/2025 18:50:06,87] Successfully on branch 'main'. 
 [Κυρ 15/06/2025 18:50:06,91] Adding all changes to Git... 
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/voip_design_notes.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'metadata.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/auth/permissions.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/auth/roles.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/actionExecutor.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/index.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/utils.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/workflowEngine.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/workflowRules.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/workflowService.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/workflowTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/AiDraftEmailModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/AiSummaryModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Avatar.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ConfirmationModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ContactCard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ContactForm.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ContactListItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ContactMasterView.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ErrorBoundary.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/GlobalSearchResultsDropdown.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Header.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/LogoDisplay.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/PlaceholderView.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ScrollableContainer.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Sidebar.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/crm/ProjectCard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/crm/documents/DocumentList.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/crm/documents/DocumentListItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/crm/documents/DocumentUploadForm.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/crm/documents/DocumentUploadModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/crm/forms/ActivityForm.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/crm/modals/ActivityFormModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/filters/ContactFilterControls.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/AddressFormSection.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/CommonContactFields.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/LegalEntityFields.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/NaturalPersonFields.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/PublicServiceFields.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/phone/ContactPhoneInput.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/AlertTriangleIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ArrowUturnLeftIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/BellIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ChartBarIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/CheckCircleIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ChevronDoubleLeftIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ChevronDoubleRightIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ClipboardDocumentIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/CloseIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/CogIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/DashboardIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/DialpadIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/EditIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/EmailIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ErrorCircleIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/EyeIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/EyeSlashIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FacebookIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FileArchiveIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FileGenericIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FileImageIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FilePdfIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FileTextIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FilterIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FormatBoldIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FormatItalicIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/InfoIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/InstagramIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/LinkedInIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ListBulletIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/MicrophoneIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/MicrophoneSlashIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/MinusIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PaperAirplaneIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PaperclipIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PauseCircleIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PhoneHangupIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PhoneIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PinIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PinOutlineIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PlusIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/QueueListIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/SearchIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/SettingsIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/SignalIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/SparklesIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/SpinnerIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/SuccessCircleIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/TelegramIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/TikTokIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/TrashIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/UserIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/UsersGroupIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ViberIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/WebsiteIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/WhatsAppIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/XIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/index.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/info/AddressDisplay.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/info/IdentityInfoDisplay.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/info/LegalEntityInfoDisplay.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/info/ProfessionalInfoDisplay.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/info/PropertyAttributesDisplay.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/info/PublicServiceInfoDisplay.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/info/SocialMediaLinksDisplay.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/info/TaxInfoDisplay.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/info/phone/ContactPhoneDisplayList.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/notes/AddNoteForm.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/notes/ContactNotesSection.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/notes/NoteFilters.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/notes/NoteItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/notifications/NotificationBell.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/notifications/NotificationItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/notifications/NotificationPanel.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/notifications/NotificationSettingsModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/skeletons/SkeletonAvatar.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/skeletons/SkeletonContactListItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/skeletons/SkeletonText.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/AlertBanner.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Button.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Checkbox.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/DashboardWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/FieldError.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/FormFieldWrapper.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Icon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Input.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Label.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/MentionTextarea.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/ModalAlert.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/NumberInput.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/PasswordInput.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Popover.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Radio.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/RadioGroup.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Select.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Textarea.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Toggle.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Tooltip.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/contactCard/ContactCardActions.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/contactCard/ContactHeader.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/contactCard/ContactInfoDisplay.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/contactCard/contactCardUtils.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/tooltip/tooltipUtils.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/users/UserListItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/voip/ActiveCallBar.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/voip/DialPad.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/config/initialData.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/config/strings/appStrings.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/config/strings/cardStrings.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/config/strings/enumTranslations.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/config/strings/formStrings.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/config/strings/modalStrings.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/config/translations.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/constants/emailStatus.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/data/mockCrmData.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/activitySchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/buildingSchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/companySchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/crmBaseSchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/crmRelationshipSchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/documentSchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/floorSchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/groupSchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/pipelineEntrySchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/pipelineStageSchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/projectSchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/propertyAccessorySchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/schemas/propertySchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/activity.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/building.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/company.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/document.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/floor.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/group.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/pipelineEntry.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/pipelineStage.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/project.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/property.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/propertyAccessory.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/activityTypeMappings.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/activityTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/buildingTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/companyTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/crmBaseTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/crmRelationships.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/documentTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/floorTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/groupTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/pipelineTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/projectTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/propertyAccessoryTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/types/propertyTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/components/DashboardGrid.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/components/DashboardShell.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/components/DashboardTabs.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/components/SortableWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/personalization/LayoutControls.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/personalization/WidgetManager.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/tabs/SettingsDashboardTab.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/checklists/ChecklistManagerWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/documents/DocumentsOverviewWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/documents/PendingDeliverablesWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/inbox/PendingActionsWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/inbox/YourFeedWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/kpis/OverdueBehaviorWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/kpis/ResponsivenessWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/kpis/TaskCompletionRateWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/overview/RecentContactsListWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/people/TeamActivityWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/people/UserImpactLogWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/people/UserPerformanceSummaryWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/projects/BlockedProjectItemsWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/projects/ProjectListSummaryWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/projects/UpcomingProjectDeadlinesWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/tasks/DueSoonTasksWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/tasks/MyTasksWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/tasks/OverdueTasksWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/tasks/TeamTasksWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/timeline/TimelineActivityFeedWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/today/NotificationsFeedWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/today/RecentCallsWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/today/RemindersTodayWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/today/TodayTasksWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/widgetsRegistry.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/data/mocks/emails.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/data/mocks/users.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/evaluations/models/Evaluation.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/evaluations/services/evaluation.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/evaluations/widgets/TeamEvaluationWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/notes/useContactNotes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useAddressesFieldArray.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useContactForm.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useCreateContact.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useDeleteContact.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useEmailSender.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useFetchContacts.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useGlobalSearchLogic.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useNotification.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/usePhoneNumbersFieldArray.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/usePortalContainer.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useTooltipEffects.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useTooltipState.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useTooltipTriggers.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useUpdateContact.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useVoipHandler.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/notes/hooks/useContactNotes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/notes/schemas/noteSchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/notes/services/note.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/notes/stores/notesStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/notes/types/noteTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/ContactDetailPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/ContactFormPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/ContactsPageLayout.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/CrmPageLayout.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/DashboardPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/PhonePage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/SettingsPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/UsersPage.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reminders/engine/reminderScheduler.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reminders/models/Reminder.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reminders/rules/index.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reminders/services/reminder.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/schemas/contactSchemas.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/schemas/emailSchema.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/services/contact.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/services/email.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/services/geminiService.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/services/note.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/stores/contactsStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/stores/notesStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/stores/notificationsStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/stores/uiStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/stores/useCallStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/contact.service.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/email.service.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/formUtils.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/types.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/types/emailTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/types/iconTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/types/noteTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/types/notificationTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/user/preferences/dashboardPreferences.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/user/stores/dashboardStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/user/stores/userStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/utils/formUtils.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/utils/phoneUtils.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/voip/adapters/MockAdapter.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/voip/hooks/useVoipHandler.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/voip/schemas/VoipConfigSchema.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/voip/services/VoipManager.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/voip/services/voipServiceInstance.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/voip/stores/useCallStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/voip/types/adapterTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/voip/types/callTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'styles/fonts/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'styles/typography/tokens.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'upload_log.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.ts', LF will be replaced by CRLF the next time Git touches it
+[Κυρ 15/06/2025 18:50:31,26] Committing changes... 
+[main (root-commit) ba816c0] Auto-update from script 'nestor_ftb_01(2).zip' at Κυρ 15/06/2025 18:50:31,36
+ 308 files changed, 25718 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 docs/voip_design_notes.md
+ create mode 100644 index.html
+ create mode 100644 index.tsx
+ create mode 100644 metadata.json
+ create mode 100644 package.json
+ create mode 100644 src/App.tsx
+ create mode 100644 src/auth/permissions.ts
+ create mode 100644 src/auth/roles.ts
+ create mode 100644 src/automation/README.md
+ create mode 100644 src/automation/actionExecutor.ts
+ create mode 100644 src/automation/index.ts
+ create mode 100644 src/automation/utils.ts
+ create mode 100644 src/automation/workflowEngine.ts
+ create mode 100644 src/automation/workflowRules.ts
+ create mode 100644 src/automation/workflowService.ts
+ create mode 100644 src/automation/workflowTypes.ts
+ create mode 100644 src/components/AiDraftEmailModal.tsx
+ create mode 100644 src/components/AiSummaryModal.tsx
+ create mode 100644 src/components/Avatar.tsx
+ create mode 100644 src/components/ConfirmationModal.tsx
+ create mode 100644 src/components/ContactCard.tsx
+ create mode 100644 src/components/ContactForm.tsx
+ create mode 100644 src/components/ContactListItem.tsx
+ create mode 100644 src/components/ContactMasterView.tsx
+ create mode 100644 src/components/ErrorBoundary.tsx
+ create mode 100644 src/components/GlobalSearchResultsDropdown.tsx
+ create mode 100644 src/components/Header.tsx
+ create mode 100644 src/components/LogoDisplay.tsx
+ create mode 100644 src/components/PlaceholderView.tsx
+ create mode 100644 src/components/ScrollableContainer.tsx
+ create mode 100644 src/components/Sidebar.tsx
+ create mode 100644 src/components/crm/ProjectCard.tsx
+ create mode 100644 src/components/crm/documents/DocumentList.tsx
+ create mode 100644 src/components/crm/documents/DocumentListItem.tsx
+ create mode 100644 src/components/crm/documents/DocumentUploadForm.tsx
+ create mode 100644 src/components/crm/documents/DocumentUploadModal.tsx
+ create mode 100644 src/components/crm/forms/ActivityForm.tsx
+ create mode 100644 src/components/crm/modals/ActivityFormModal.tsx
+ create mode 100644 src/components/filters/ContactFilterControls.tsx
+ create mode 100644 src/components/formFields/AddressFormSection.tsx
+ create mode 100644 src/components/formFields/CommonContactFields.tsx
+ create mode 100644 src/components/formFields/LegalEntityFields.tsx
+ create mode 100644 src/components/formFields/NaturalPersonFields.tsx
+ create mode 100644 src/components/formFields/PublicServiceFields.tsx
+ create mode 100644 src/components/formFields/phone/ContactPhoneInput.tsx
+ create mode 100644 src/components/icons/AlertTriangleIcon.tsx
+ create mode 100644 src/components/icons/ArrowUturnLeftIcon.tsx
+ create mode 100644 src/components/icons/BellIcon.tsx
+ create mode 100644 src/components/icons/ChartBarIcon.tsx
+ create mode 100644 src/components/icons/CheckCircleIcon.tsx
+ create mode 100644 src/components/icons/ChevronDoubleLeftIcon.tsx
+ create mode 100644 src/components/icons/ChevronDoubleRightIcon.tsx
+ create mode 100644 src/components/icons/ClipboardDocumentIcon.tsx
+ create mode 100644 src/components/icons/CloseIcon.tsx
+ create mode 100644 src/components/icons/CogIcon.tsx
+ create mode 100644 src/components/icons/DashboardIcon.tsx
+ create mode 100644 src/components/icons/DialpadIcon.tsx
+ create mode 100644 src/components/icons/EditIcon.tsx
+ create mode 100644 src/components/icons/EmailIcon.tsx
+ create mode 100644 src/components/icons/ErrorCircleIcon.tsx
+ create mode 100644 src/components/icons/EyeIcon.tsx
+ create mode 100644 src/components/icons/EyeSlashIcon.tsx
+ create mode 100644 src/components/icons/FacebookIcon.tsx
+ create mode 100644 src/components/icons/FileArchiveIcon.tsx
+ create mode 100644 src/components/icons/FileGenericIcon.tsx
+ create mode 100644 src/components/icons/FileImageIcon.tsx
+ create mode 100644 src/components/icons/FilePdfIcon.tsx
+ create mode 100644 src/components/icons/FileTextIcon.tsx
+ create mode 100644 src/components/icons/FilterIcon.tsx
+ create mode 100644 src/components/icons/FormatBoldIcon.tsx
+ create mode 100644 src/components/icons/FormatItalicIcon.tsx
+ create mode 100644 src/components/icons/InfoIcon.tsx
+ create mode 100644 src/components/icons/InstagramIcon.tsx
+ create mode 100644 src/components/icons/LinkedInIcon.tsx
+ create mode 100644 src/components/icons/ListBulletIcon.tsx
+ create mode 100644 src/components/icons/MicrophoneIcon.tsx
+ create mode 100644 src/components/icons/MicrophoneSlashIcon.tsx
+ create mode 100644 src/components/icons/MinusIcon.tsx
+ create mode 100644 src/components/icons/PaperAirplaneIcon.tsx
+ create mode 100644 src/components/icons/PaperclipIcon.tsx
+ create mode 100644 src/components/icons/PauseCircleIcon.tsx
+ create mode 100644 src/components/icons/PhoneHangupIcon.tsx
+ create mode 100644 src/components/icons/PhoneIcon.tsx
+ create mode 100644 src/components/icons/PinIcon.tsx
+ create mode 100644 src/components/icons/PinOutlineIcon.tsx
+ create mode 100644 src/components/icons/PlusIcon.tsx
+ create mode 100644 src/components/icons/QueueListIcon.tsx
+ create mode 100644 src/components/icons/SearchIcon.tsx
+ create mode 100644 src/components/icons/SettingsIcon.tsx
+ create mode 100644 src/components/icons/SignalIcon.tsx
+ create mode 100644 src/components/icons/SparklesIcon.tsx
+ create mode 100644 src/components/icons/SpinnerIcon.tsx
+ create mode 100644 src/components/icons/SuccessCircleIcon.tsx
+ create mode 100644 src/components/icons/TelegramIcon.tsx
+ create mode 100644 src/components/icons/TikTokIcon.tsx
+ create mode 100644 src/components/icons/TrashIcon.tsx
+ create mode 100644 src/components/icons/UserIcon.tsx
+ create mode 100644 src/components/icons/UsersGroupIcon.tsx
+ create mode 100644 src/components/icons/ViberIcon.tsx
+ create mode 100644 src/components/icons/WebsiteIcon.tsx
+ create mode 100644 src/components/icons/WhatsAppIcon.tsx
+ create mode 100644 src/components/icons/XIcon.tsx
+ create mode 100644 src/components/icons/index.ts
+ create mode 100644 src/components/info/AddressDisplay.tsx
+ create mode 100644 src/components/info/IdentityInfoDisplay.tsx
+ create mode 100644 src/components/info/LegalEntityInfoDisplay.tsx
+ create mode 100644 src/components/info/ProfessionalInfoDisplay.tsx
+ create mode 100644 src/components/info/PropertyAttributesDisplay.tsx
+ create mode 100644 src/components/info/PublicServiceInfoDisplay.tsx
+ create mode 100644 src/components/info/SocialMediaLinksDisplay.tsx
+ create mode 100644 src/components/info/TaxInfoDisplay.tsx
+ create mode 100644 src/components/info/phone/ContactPhoneDisplayList.tsx
+ create mode 100644 src/components/notes/AddNoteForm.tsx
+ create mode 100644 src/components/notes/ContactNotesSection.tsx
+ create mode 100644 src/components/notes/NoteFilters.tsx
+ create mode 100644 src/components/notes/NoteItem.tsx
+ create mode 100644 src/components/notifications/NotificationBell.tsx
+ create mode 100644 src/components/notifications/NotificationItem.tsx
+ create mode 100644 src/components/notifications/NotificationPanel.tsx
+ create mode 100644 src/components/notifications/NotificationSettingsModal.tsx
+ create mode 100644 src/components/skeletons/SkeletonAvatar.tsx
+ create mode 100644 src/components/skeletons/SkeletonContactListItem.tsx
+ create mode 100644 src/components/skeletons/SkeletonText.tsx
+ create mode 100644 src/components/ui/AlertBanner.tsx
+ create mode 100644 src/components/ui/Button.tsx
+ create mode 100644 src/components/ui/Checkbox.tsx
+ create mode 100644 src/components/ui/DashboardWidget.tsx
+ create mode 100644 src/components/ui/FieldError.tsx
+ create mode 100644 src/components/ui/FormFieldWrapper.tsx
+ create mode 100644 src/components/ui/Icon.tsx
+ create mode 100644 src/components/ui/Input.tsx
+ create mode 100644 src/components/ui/Label.tsx
+ create mode 100644 src/components/ui/MentionTextarea.tsx
+ create mode 100644 src/components/ui/ModalAlert.tsx
+ create mode 100644 src/components/ui/NumberInput.tsx
+ create mode 100644 src/components/ui/PasswordInput.tsx
+ create mode 100644 src/components/ui/Popover.tsx
+ create mode 100644 src/components/ui/Radio.tsx
+ create mode 100644 src/components/ui/RadioGroup.tsx
+ create mode 100644 src/components/ui/Select.tsx
+ create mode 100644 src/components/ui/Textarea.tsx
+ create mode 100644 src/components/ui/Toggle.tsx
+ create mode 100644 src/components/ui/Tooltip.tsx
+ create mode 100644 src/components/ui/contactCard/ContactCardActions.tsx
+ create mode 100644 src/components/ui/contactCard/ContactHeader.tsx
+ create mode 100644 src/components/ui/contactCard/ContactInfoDisplay.tsx
+ create mode 100644 src/components/ui/contactCard/contactCardUtils.ts
+ create mode 100644 src/components/ui/tooltip/tooltipUtils.ts
+ create mode 100644 src/components/users/UserListItem.tsx
+ create mode 100644 src/components/voip/ActiveCallBar.tsx
+ create mode 100644 src/components/voip/DialPad.tsx
+ create mode 100644 src/config/initialData.ts
+ create mode 100644 src/config/strings/appStrings.ts
+ create mode 100644 src/config/strings/cardStrings.ts
+ create mode 100644 src/config/strings/enumTranslations.ts
+ create mode 100644 src/config/strings/formStrings.ts
+ create mode 100644 src/config/strings/modalStrings.ts
+ create mode 100644 src/config/translations.ts
+ create mode 100644 src/constants/emailStatus.ts
+ create mode 100644 src/crm/data/mockCrmData.ts
+ create mode 100644 src/crm/schemas/activitySchemas.ts
+ create mode 100644 src/crm/schemas/buildingSchemas.ts
+ create mode 100644 src/crm/schemas/companySchemas.ts
+ create mode 100644 src/crm/schemas/crmBaseSchemas.ts
+ create mode 100644 src/crm/schemas/crmRelationshipSchemas.ts
+ create mode 100644 src/crm/schemas/documentSchemas.ts
+ create mode 100644 src/crm/schemas/floorSchemas.ts
+ create mode 100644 src/crm/schemas/groupSchemas.ts
+ create mode 100644 src/crm/schemas/pipelineEntrySchemas.ts
+ create mode 100644 src/crm/schemas/pipelineStageSchemas.ts
+ create mode 100644 src/crm/schemas/projectSchemas.ts
+ create mode 100644 src/crm/schemas/propertyAccessorySchemas.ts
+ create mode 100644 src/crm/schemas/propertySchemas.ts
+ create mode 100644 src/crm/services/activity.service.ts
+ create mode 100644 src/crm/services/building.service.ts
+ create mode 100644 src/crm/services/company.service.ts
+ create mode 100644 src/crm/services/document.service.ts
+ create mode 100644 src/crm/services/floor.service.ts
+ create mode 100644 src/crm/services/group.service.ts
+ create mode 100644 src/crm/services/pipelineEntry.service.ts
+ create mode 100644 src/crm/services/pipelineStage.service.ts
+ create mode 100644 src/crm/services/project.service.ts
+ create mode 100644 src/crm/services/property.service.ts
+ create mode 100644 src/crm/services/propertyAccessory.service.ts
+ create mode 100644 src/crm/types/activityTypeMappings.ts
+ create mode 100644 src/crm/types/activityTypes.ts
+ create mode 100644 src/crm/types/buildingTypes.ts
+ create mode 100644 src/crm/types/companyTypes.ts
+ create mode 100644 src/crm/types/crmBaseTypes.ts
+ create mode 100644 src/crm/types/crmRelationships.ts
+ create mode 100644 src/crm/types/documentTypes.ts
+ create mode 100644 src/crm/types/floorTypes.ts
+ create mode 100644 src/crm/types/groupTypes.ts
+ create mode 100644 src/crm/types/pipelineTypes.ts
+ create mode 100644 src/crm/types/projectTypes.ts
+ create mode 100644 src/crm/types/propertyAccessoryTypes.ts
+ create mode 100644 src/crm/types/propertyTypes.ts
+ create mode 100644 src/dashboard/components/DashboardGrid.tsx
+ create mode 100644 src/dashboard/components/DashboardShell.tsx
+ create mode 100644 src/dashboard/components/DashboardTabs.tsx
+ create mode 100644 src/dashboard/components/SortableWidget.tsx
+ create mode 100644 src/dashboard/personalization/LayoutControls.tsx
+ create mode 100644 src/dashboard/personalization/WidgetManager.tsx
+ create mode 100644 src/dashboard/tabs/SettingsDashboardTab.tsx
+ create mode 100644 src/dashboard/widgets/checklists/ChecklistManagerWidget.tsx
+ create mode 100644 src/dashboard/widgets/documents/DocumentsOverviewWidget.tsx
+ create mode 100644 src/dashboard/widgets/documents/PendingDeliverablesWidget.tsx
+ create mode 100644 src/dashboard/widgets/inbox/PendingActionsWidget.tsx
+ create mode 100644 src/dashboard/widgets/inbox/YourFeedWidget.tsx
+ create mode 100644 src/dashboard/widgets/kpis/OverdueBehaviorWidget.tsx
+ create mode 100644 src/dashboard/widgets/kpis/ResponsivenessWidget.tsx
+ create mode 100644 src/dashboard/widgets/kpis/TaskCompletionRateWidget.tsx
+ create mode 100644 src/dashboard/widgets/overview/RecentContactsListWidget.tsx
+ create mode 100644 src/dashboard/widgets/people/TeamActivityWidget.tsx
+ create mode 100644 src/dashboard/widgets/people/UserImpactLogWidget.tsx
+ create mode 100644 src/dashboard/widgets/people/UserPerformanceSummaryWidget.tsx
+ create mode 100644 src/dashboard/widgets/projects/BlockedProjectItemsWidget.tsx
+ create mode 100644 src/dashboard/widgets/projects/ProjectListSummaryWidget.tsx
+ create mode 100644 src/dashboard/widgets/projects/UpcomingProjectDeadlinesWidget.tsx
+ create mode 100644 src/dashboard/widgets/tasks/DueSoonTasksWidget.tsx
+ create mode 100644 src/dashboard/widgets/tasks/MyTasksWidget.tsx
+ create mode 100644 src/dashboard/widgets/tasks/OverdueTasksWidget.tsx
+ create mode 100644 src/dashboard/widgets/tasks/TeamTasksWidget.tsx
+ create mode 100644 src/dashboard/widgets/timeline/TimelineActivityFeedWidget.tsx
+ create mode 100644 src/dashboard/widgets/today/NotificationsFeedWidget.tsx
+ create mode 100644 src/dashboard/widgets/today/RecentCallsWidget.tsx
+ create mode 100644 src/dashboard/widgets/today/RemindersTodayWidget.tsx
+ create mode 100644 src/dashboard/widgets/today/TodayTasksWidget.tsx
+ create mode 100644 src/dashboard/widgets/widgetsRegistry.ts
+ create mode 100644 src/data/mocks/emails.ts
+ create mode 100644 src/data/mocks/users.ts
+ create mode 100644 src/evaluations/models/Evaluation.ts
+ create mode 100644 src/evaluations/services/evaluation.service.ts
+ create mode 100644 src/evaluations/widgets/TeamEvaluationWidget.tsx
+ create mode 100644 src/hooks/notes/useContactNotes.ts
+ create mode 100644 src/hooks/useAddressesFieldArray.ts
+ create mode 100644 src/hooks/useContactForm.ts
+ create mode 100644 src/hooks/useCreateContact.ts
+ create mode 100644 src/hooks/useDeleteContact.ts
+ create mode 100644 src/hooks/useEmailSender.ts
+ create mode 100644 src/hooks/useFetchContacts.ts
+ create mode 100644 src/hooks/useGlobalSearchLogic.ts
+ create mode 100644 src/hooks/useNotification.ts
+ create mode 100644 src/hooks/usePhoneNumbersFieldArray.ts
+ create mode 100644 src/hooks/usePortalContainer.ts
+ create mode 100644 src/hooks/useTooltipEffects.ts
+ create mode 100644 src/hooks/useTooltipState.ts
+ create mode 100644 src/hooks/useTooltipTriggers.ts
+ create mode 100644 src/hooks/useUpdateContact.ts
+ create mode 100644 src/hooks/useVoipHandler.ts
+ create mode 100644 src/index.tsx
+ create mode 100644 src/notes/hooks/useContactNotes.ts
+ create mode 100644 src/notes/schemas/noteSchemas.ts
+ create mode 100644 src/notes/services/note.service.ts
+ create mode 100644 src/notes/stores/notesStore.ts
+ create mode 100644 src/notes/types/noteTypes.ts
+ create mode 100644 src/pages/ContactDetailPage.tsx
+ create mode 100644 src/pages/ContactFormPage.tsx
+ create mode 100644 src/pages/ContactsPageLayout.tsx
+ create mode 100644 src/pages/CrmPageLayout.tsx
+ create mode 100644 src/pages/DashboardPage.tsx
+ create mode 100644 src/pages/PhonePage.tsx
+ create mode 100644 src/pages/SettingsPage.tsx
+ create mode 100644 src/pages/UsersPage.tsx
+ create mode 100644 src/reminders/engine/reminderScheduler.ts
+ create mode 100644 src/reminders/models/Reminder.ts
+ create mode 100644 src/reminders/rules/index.ts
+ create mode 100644 src/reminders/services/reminder.service.ts
+ create mode 100644 src/schemas/contactSchemas.ts
+ create mode 100644 src/schemas/emailSchema.ts
+ create mode 100644 src/services/contact.service.ts
+ create mode 100644 src/services/email.service.ts
+ create mode 100644 src/services/geminiService.ts
+ create mode 100644 src/services/note.service.ts
+ create mode 100644 src/stores/contactsStore.ts
+ create mode 100644 src/stores/notesStore.ts
+ create mode 100644 src/stores/notificationsStore.ts
+ create mode 100644 src/stores/uiStore.ts
+ create mode 100644 src/stores/useCallStore.ts
+ create mode 100644 src/tests/unit/README.md
+ create mode 100644 src/tests/unit/contact.service.test.ts
+ create mode 100644 src/tests/unit/email.service.test.ts
+ create mode 100644 src/tests/unit/formUtils.test.ts
+ create mode 100644 src/types.ts
+ create mode 100644 src/types/emailTypes.ts
+ create mode 100644 src/types/iconTypes.ts
+ create mode 100644 src/types/noteTypes.ts
+ create mode 100644 src/types/notificationTypes.ts
+ create mode 100644 src/user/preferences/dashboardPreferences.ts
+ create mode 100644 src/user/stores/dashboardStore.ts
+ create mode 100644 src/user/stores/userStore.ts
+ create mode 100644 src/utils/formUtils.ts
+ create mode 100644 src/utils/phoneUtils.ts
+ create mode 100644 src/voip/adapters/MockAdapter.ts
+ create mode 100644 src/voip/hooks/useVoipHandler.ts
+ create mode 100644 src/voip/schemas/VoipConfigSchema.ts
+ create mode 100644 src/voip/services/VoipManager.ts
+ create mode 100644 src/voip/services/voipServiceInstance.ts
+ create mode 100644 src/voip/stores/useCallStore.ts
+ create mode 100644 src/voip/types/adapterTypes.ts
+ create mode 100644 src/voip/types/callTypes.ts
+ create mode 100644 styles/fonts/README.md
+ create mode 100644 styles/typography/tokens.css
+ create mode 100644 tsconfig.json
+ create mode 100644 upload_log.txt
+ create mode 100644 vite.config.ts
+[Κυρ 15/06/2025 18:50:37,63] Changes committed with message: Auto-update from script 'nestor_ftb_01(2).zip' at Κυρ 15/06/2025 18:50:31,36 
+[Κυρ 15/06/2025 18:50:37,65] Pushing changes to GitHub on branch 'main' (using --force)... 
+To https://github.com/YorgosPag/frontend-ai-app.git
+ + 3bbf9f7...ba816c0 main -> main (forced update)
+[Κυρ 15/06/2025 18:50:40,87] Changes pushed successfully to GitHub. 
+[Κυρ 15/06/2025 18:50:54,16] --- Script Finished Successfully --- 
+[Κυρ 15/06/2025 18:50:54,20] Summary: 
+[Κυρ 15/06/2025 18:50:54,24]   Processed ZIP: nestor_ftb_01(2).zip 
+[Κυρ 15/06/2025 18:50:54,26]   Files in destination: 728 
+[Κυρ 15/06/2025 18:50:54,28]   Folders in destination: 301 
+[Κυρ 15/06/2025 18:50:54,31] ======================================== 
+[Κυρ 15/06/2025 19:10:17,21] GitHub Token found in environment variable GITHUB_TOKEN_FOR_SCRIPT. 
+[Κυρ 15/06/2025 19:10:17,25] --- Script Started (Main Logic) --- 
+[Κυρ 15/06/2025 19:10:17,28] Source directory: C:\Users\user\Downloads 
+[Κυρ 15/06/2025 19:10:17,31] Destination directory: F:\Nestor\frontend-ai-app 
+[Κυρ 15/06/2025 19:10:17,34] Searching for latest ZIP file in 'C:\Users\user\Downloads' matching 'nestor_*.zip'... 
+[Κυρ 15/06/2025 19:10:17,38] Found latest zip file: nestor_ftb_01(2).zip 
+[Κυρ 15/06/2025 19:10:17,39] Extracting 'nestor_ftb_01(2).zip' to 'F:\Nestor\frontend-ai-app' (overwriting existing files)... 
+[Κυρ 15/06/2025 19:10:59,22] Zip file extracted successfully. 
+[Κυρ 15/06/2025 19:10:59,24] Changing directory to 'F:\Nestor\frontend-ai-app' for Git operations... 
+[Κυρ 15/06/2025 19:10:59,31] Successfully changed directory. Current directory: F:\Nestor\frontend-ai-app 
+[Κυρ 15/06/2025 19:10:59,34] Attempting to configure Git safe directory for 'F:\Nestor\frontend-ai-app'... 
+[Κυρ 15/06/2025 19:10:59,69] Git safe.directory configuration command executed successfully (or was already set). 
+[Κυρ 15/06/2025 19:10:59,72] Existing Git repository found in 'F:\Nestor\frontend-ai-app'. 
+[Κυρ 15/06/2025 19:10:59,75] Configuring local Git user for this commit... 
+[Κυρ 15/06/2025 19:11:01,29] Attempting to checkout/create branch 'main'... 
+M	upload_log.txt
+Reset branch 'main'
+[Κυρ 15/06/2025 19:11:04,45] Successfully on branch 'main'. 
+[Κυρ 15/06/2025 19:11:04,47] Adding all changes to Git... 
