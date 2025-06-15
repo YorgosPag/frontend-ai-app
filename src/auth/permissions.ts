@@ -1,0 +1,204 @@
+// src/auth/permissions.ts
+import { ROLES, type AppRole } from './roles';
+
+/**
+ * Defines the available permissions within the application.
+ */
+export const PERMISSIONS = {
+  // Contact Management
+  VIEW_ALL_CONTACTS: 'view_all_contacts',
+  VIEW_ASSIGNED_CONTACTS: 'view_assigned_contacts',
+  CREATE_CONTACT: 'create_contact',
+  EDIT_CONTACT: 'edit_contact',
+  DELETE_CONTACT: 'delete_contact',
+
+  // User Management
+  VIEW_USERS: 'view_users',
+  MANAGE_USERS: 'manage_users',
+
+  // Dashboard & Reporting
+  VIEW_DASHBOARD_GLOBAL: 'view_dashboard_global',
+  VIEW_DASHBOARD_PERSONAL: 'view_dashboard_personal',
+  VIEW_REPORTS: 'view_reports',
+
+  // Notes Management
+  ADD_NOTES_TO_ANY_ENTITY: 'add_notes_to_any_entity',
+  ADD_NOTES_TO_OWN_OR_ASSIGNED_ENTITIES: 'add_notes_to_own_or_assigned_entities',
+  VIEW_ALL_NOTES: 'view_all_notes',
+  VIEW_TEAM_NOTES: 'view_team_notes',
+  EDIT_OWN_NOTES: 'edit_own_notes',
+  DELETE_OWN_NOTES: 'delete_own_notes',
+  MANAGE_ALL_NOTES: 'manage_all_notes',
+
+  // Settings Management
+  ACCESS_SETTINGS: 'access_settings',
+  MANAGE_APP_SETTINGS: 'manage_app_settings',
+  MANAGE_NOTIFICATION_SETTINGS: 'manage_notification_settings',
+
+  // VoIP Features
+  USE_VOIP: 'use_voip',
+  VIEW_CALL_LOGS_ALL: 'view_call_logs_all',
+  VIEW_CALL_LOGS_OWN: 'view_call_logs_own',
+
+  // People/Teams Tab
+  VIEW_PEOPLE_TAB: 'view_people_tab',
+  VIEW_TEAM_ACTIVITY: 'view_team_activity',
+  VIEW_ALL_USER_ACTIVITY: 'view_all_user_activity',
+
+  // Workflow Automation
+  MANAGE_WORKFLOWS: 'manage_workflows',
+
+  // Dashboard Widget Permissions
+  VIEW_WIDGET_TOTAL_CONTACTS: 'view_widget_total_contacts',
+  VIEW_WIDGET_RECENT_CONTACTS: 'view_widget_recent_contacts',
+  VIEW_WIDGET_NOTIFICATIONS: 'view_widget_notifications',
+
+  // CRM - Projects
+  VIEW_ALL_PROJECTS: 'view_all_projects',
+  VIEW_TEAM_PROJECTS: 'view_team_projects', // Manager might see projects of their team
+  VIEW_OWN_PROJECTS: 'view_own_projects',   // Employee sees projects they manage
+  CREATE_PROJECTS: 'create_projects',
+  EDIT_ANY_PROJECT: 'edit_any_project',
+  EDIT_OWN_PROJECT: 'edit_own_project',
+  DELETE_ANY_PROJECT: 'delete_any_project',
+  DELETE_OWN_PROJECT: 'delete_own_project',
+
+  // CRM - Pipeline Stages
+  MANAGE_PIPELINE_STAGES: 'manage_pipeline_stages', // Create, Edit, Delete stages
+
+  // CRM - Pipeline Entries (Deals)
+  VIEW_ALL_PIPELINE_ENTRIES: 'view_all_pipeline_entries',
+  VIEW_TEAM_PIPELINE_ENTRIES: 'view_team_pipeline_entries',
+  VIEW_OWN_PIPELINE_ENTRIES: 'view_own_pipeline_entries',
+  CREATE_PIPELINE_ENTRIES: 'create_pipeline_entries',
+  EDIT_ANY_PIPELINE_ENTRY: 'edit_any_pipeline_entry',
+  EDIT_OWN_PIPELINE_ENTRY: 'edit_own_pipeline_entry',
+  DELETE_ANY_PIPELINE_ENTRY: 'delete_any_pipeline_entry',
+  DELETE_OWN_PIPELINE_ENTRY: 'delete_own_pipeline_entry',
+  ASSIGN_PIPELINE_ENTRY_TO_USER: 'assign_pipeline_entry_to_user', // Manager can assign
+
+  // CRM - Activities
+  VIEW_ALL_ACTIVITIES: 'view_all_activities',
+  VIEW_TEAM_ACTIVITIES: 'view_team_activities',
+  VIEW_OWN_ACTIVITIES: 'view_own_activities',
+  CREATE_ACTIVITIES: 'create_activities', // General permission to create activities
+  EDIT_ANY_ACTIVITY: 'edit_any_activity',
+  EDIT_OWN_ACTIVITY: 'edit_own_activity',
+  DELETE_ANY_ACTIVITY: 'delete_any_activity',
+  DELETE_OWN_ACTIVITY: 'delete_own_activity',
+
+  // CRM - Documents
+  VIEW_ALL_DOCUMENTS: 'view_all_documents', // Based on related entity access
+  VIEW_TEAM_DOCUMENTS: 'view_team_documents',
+  VIEW_OWN_DOCUMENTS: 'view_own_documents', // Uploaded by user or related to own entities
+  UPLOAD_DOCUMENTS: 'upload_documents',
+  MANAGE_ANY_DOCUMENT_METADATA: 'manage_any_document_metadata', // Edit/delete metadata
+  MANAGE_OWN_DOCUMENT_METADATA: 'manage_own_document_metadata',
+  DELETE_ANY_DOCUMENT_FILE: 'delete_any_document_file', // Actual file deletion (more critical)
+
+
+} as const;
+
+export type Permission = typeof PERMISSIONS[keyof typeof PERMISSIONS];
+
+export const ALL_PERMISSIONS: Permission[] = Object.values(PERMISSIONS);
+
+/**
+ * Maps roles to their granted permissions.
+ */
+export const ROLE_PERMISSIONS: Record<AppRole, Permission[]> = {
+  [ROLES.ADMIN]: [
+    // Existing Admin permissions...
+    PERMISSIONS.VIEW_ALL_CONTACTS, PERMISSIONS.CREATE_CONTACT, PERMISSIONS.EDIT_CONTACT, PERMISSIONS.DELETE_CONTACT,
+    PERMISSIONS.VIEW_USERS, PERMISSIONS.MANAGE_USERS,
+    PERMISSIONS.VIEW_DASHBOARD_GLOBAL, PERMISSIONS.VIEW_DASHBOARD_PERSONAL, PERMISSIONS.VIEW_REPORTS,
+    PERMISSIONS.MANAGE_ALL_NOTES,
+    PERMISSIONS.ACCESS_SETTINGS, PERMISSIONS.MANAGE_APP_SETTINGS, PERMISSIONS.MANAGE_NOTIFICATION_SETTINGS,
+    PERMISSIONS.USE_VOIP, PERMISSIONS.VIEW_CALL_LOGS_ALL,
+    PERMISSIONS.VIEW_PEOPLE_TAB, PERMISSIONS.VIEW_ALL_USER_ACTIVITY,
+    PERMISSIONS.MANAGE_WORKFLOWS,
+    PERMISSIONS.VIEW_WIDGET_TOTAL_CONTACTS, PERMISSIONS.VIEW_WIDGET_RECENT_CONTACTS, PERMISSIONS.VIEW_WIDGET_NOTIFICATIONS,
+    // CRM Admin Permissions
+    PERMISSIONS.VIEW_ALL_PROJECTS, PERMISSIONS.CREATE_PROJECTS, PERMISSIONS.EDIT_ANY_PROJECT, PERMISSIONS.DELETE_ANY_PROJECT,
+    PERMISSIONS.MANAGE_PIPELINE_STAGES,
+    PERMISSIONS.VIEW_ALL_PIPELINE_ENTRIES, PERMISSIONS.CREATE_PIPELINE_ENTRIES, PERMISSIONS.EDIT_ANY_PIPELINE_ENTRY, PERMISSIONS.DELETE_ANY_PIPELINE_ENTRY, PERMISSIONS.ASSIGN_PIPELINE_ENTRY_TO_USER,
+    PERMISSIONS.VIEW_ALL_ACTIVITIES, PERMISSIONS.CREATE_ACTIVITIES, PERMISSIONS.EDIT_ANY_ACTIVITY, PERMISSIONS.DELETE_ANY_ACTIVITY,
+    PERMISSIONS.VIEW_ALL_DOCUMENTS, PERMISSIONS.UPLOAD_DOCUMENTS, PERMISSIONS.MANAGE_ANY_DOCUMENT_METADATA, PERMISSIONS.DELETE_ANY_DOCUMENT_FILE,
+  ],
+  [ROLES.MANAGER]: [
+    // Existing Manager permissions...
+    PERMISSIONS.VIEW_ALL_CONTACTS, PERMISSIONS.CREATE_CONTACT, PERMISSIONS.EDIT_CONTACT,
+    PERMISSIONS.VIEW_USERS,
+    PERMISSIONS.VIEW_DASHBOARD_GLOBAL, PERMISSIONS.VIEW_DASHBOARD_PERSONAL, PERMISSIONS.VIEW_REPORTS,
+    PERMISSIONS.ADD_NOTES_TO_ANY_ENTITY, PERMISSIONS.VIEW_TEAM_NOTES, PERMISSIONS.EDIT_OWN_NOTES, PERMISSIONS.DELETE_OWN_NOTES,
+    PERMISSIONS.ACCESS_SETTINGS, PERMISSIONS.MANAGE_NOTIFICATION_SETTINGS,
+    PERMISSIONS.USE_VOIP, PERMISSIONS.VIEW_CALL_LOGS_ALL,
+    PERMISSIONS.VIEW_PEOPLE_TAB, PERMISSIONS.VIEW_TEAM_ACTIVITY,
+    PERMISSIONS.VIEW_WIDGET_TOTAL_CONTACTS, PERMISSIONS.VIEW_WIDGET_RECENT_CONTACTS, PERMISSIONS.VIEW_WIDGET_NOTIFICATIONS,
+    // CRM Manager Permissions
+    PERMISSIONS.VIEW_TEAM_PROJECTS, PERMISSIONS.CREATE_PROJECTS, PERMISSIONS.EDIT_ANY_PROJECT, PERMISSIONS.DELETE_ANY_PROJECT, // Manager can manage more broadly
+    PERMISSIONS.MANAGE_PIPELINE_STAGES,
+    PERMISSIONS.VIEW_TEAM_PIPELINE_ENTRIES, PERMISSIONS.CREATE_PIPELINE_ENTRIES, PERMISSIONS.EDIT_ANY_PIPELINE_ENTRY, PERMISSIONS.ASSIGN_PIPELINE_ENTRY_TO_USER,
+    PERMISSIONS.VIEW_TEAM_ACTIVITIES, PERMISSIONS.CREATE_ACTIVITIES, PERMISSIONS.EDIT_ANY_ACTIVITY,
+    PERMISSIONS.VIEW_TEAM_DOCUMENTS, PERMISSIONS.UPLOAD_DOCUMENTS, PERMISSIONS.MANAGE_ANY_DOCUMENT_METADATA,
+  ],
+  [ROLES.EMPLOYEE]: [ // "Πωλητής"
+    // Existing Employee permissions...
+    PERMISSIONS.VIEW_ASSIGNED_CONTACTS, PERMISSIONS.CREATE_CONTACT, PERMISSIONS.EDIT_CONTACT,
+    PERMISSIONS.VIEW_DASHBOARD_PERSONAL,
+    PERMISSIONS.ADD_NOTES_TO_OWN_OR_ASSIGNED_ENTITIES, PERMISSIONS.VIEW_TEAM_NOTES, PERMISSIONS.EDIT_OWN_NOTES, PERMISSIONS.DELETE_OWN_NOTES,
+    PERMISSIONS.ACCESS_SETTINGS, PERMISSIONS.MANAGE_NOTIFICATION_SETTINGS,
+    PERMISSIONS.USE_VOIP, PERMISSIONS.VIEW_CALL_LOGS_OWN,
+    PERMISSIONS.VIEW_PEOPLE_TAB,
+    PERMISSIONS.VIEW_WIDGET_NOTIFICATIONS,
+    // CRM Employee Permissions
+    PERMISSIONS.VIEW_OWN_PROJECTS, PERMISSIONS.EDIT_OWN_PROJECT, // Can only edit projects they manage
+    PERMISSIONS.VIEW_OWN_PIPELINE_ENTRIES, PERMISSIONS.CREATE_PIPELINE_ENTRIES, PERMISSIONS.EDIT_OWN_PIPELINE_ENTRY,
+    PERMISSIONS.VIEW_OWN_ACTIVITIES, PERMISSIONS.CREATE_ACTIVITIES, PERMISSIONS.EDIT_OWN_ACTIVITY, PERMISSIONS.DELETE_OWN_ACTIVITY,
+    PERMISSIONS.VIEW_OWN_DOCUMENTS, PERMISSIONS.UPLOAD_DOCUMENTS, PERMISSIONS.MANAGE_OWN_DOCUMENT_METADATA,
+  ],
+  [ROLES.CONSULTANT]: [
+    PERMISSIONS.VIEW_ASSIGNED_CONTACTS, PERMISSIONS.VIEW_DASHBOARD_PERSONAL,
+    PERMISSIONS.ADD_NOTES_TO_OWN_OR_ASSIGNED_ENTITIES, PERMISSIONS.VIEW_TEAM_NOTES, PERMISSIONS.EDIT_OWN_NOTES,
+    PERMISSIONS.ACCESS_SETTINGS, PERMISSIONS.MANAGE_NOTIFICATION_SETTINGS,
+    PERMISSIONS.VIEW_OWN_PROJECTS, // Example: Consultant might see projects they are assigned to
+    PERMISSIONS.VIEW_OWN_DOCUMENTS, PERMISSIONS.UPLOAD_DOCUMENTS,
+  ],
+  [ROLES.OBSERVER]: [
+    PERMISSIONS.VIEW_ALL_CONTACTS, PERMISSIONS.VIEW_DASHBOARD_GLOBAL, PERMISSIONS.VIEW_REPORTS,
+    PERMISSIONS.VIEW_ALL_NOTES, PERMISSIONS.VIEW_CALL_LOGS_ALL, PERMISSIONS.VIEW_PEOPLE_TAB,
+    PERMISSIONS.VIEW_WIDGET_TOTAL_CONTACTS, PERMISSIONS.VIEW_WIDGET_RECENT_CONTACTS, PERMISSIONS.VIEW_WIDGET_NOTIFICATIONS,
+    // CRM Observer
+    PERMISSIONS.VIEW_ALL_PROJECTS,
+    PERMISSIONS.VIEW_ALL_PIPELINE_ENTRIES,
+    PERMISSIONS.VIEW_ALL_ACTIVITIES,
+    PERMISSIONS.VIEW_ALL_DOCUMENTS,
+  ],
+  [ROLES.LAND_OWNER]: [], [ROLES.BUYER]: [], [ROLES.SUPPLIER]: [], [ROLES.CUSTOMER]: [],
+  [ROLES.PARTNER]: [], [ROLES.EXTERNAL_VENDOR]: [], [ROLES.NEW_CUSTOMER_TAG]: [],
+};
+
+export function hasPermission(userRoles: AppRole[], permissionToCheck: Permission): boolean {
+  if (!userRoles || userRoles.length === 0) {
+    return false;
+  }
+  for (const role of userRoles) {
+    const permissionsForRole = ROLE_PERMISSIONS[role];
+    if (permissionsForRole && permissionsForRole.includes(permissionToCheck)) {
+      return true;
+    }
+  }
+  return false;
+}
+
+export function getPermissionsForRoles(userRoles: AppRole | AppRole[]): Set<Permission> {
+  const rolesToCheck = Array.isArray(userRoles) ? userRoles : [userRoles];
+  const allPermissions = new Set<Permission>();
+  for (const role of rolesToCheck) {
+    const permissions = ROLE_PERMISSIONS[role];
+    if (permissions) {
+      permissions.forEach(p => allPermissions.add(p));
+    }
+  }
+  return allPermissions;
+}

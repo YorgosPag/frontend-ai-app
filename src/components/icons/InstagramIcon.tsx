@@ -1,0 +1,11 @@
+
+// src/components/icons/InstagramIcon.tsx
+import React from 'react';
+
+const InstagramIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+    <path fillRule="evenodd" clipRule="evenodd" d="M12 2C8.13401 2 2 8.13401 2 12C2 15.866 8.13401 22 12 22C15.866 22 22 15.866 22 12C22 8.13401 15.866 2 12 2ZM12 4C9.23858 4 4 9.23858 4 12C4 14.7614 9.23858 20 12 20C14.7614 20 20 14.7614 20 12C20 9.23858 14.7614 4 12 4ZM12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7ZM12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9ZM16.75 6.5C16.75 7.05228 16.3023 7.5 15.75 7.5C15.1977 7.5 14.75 7.05228 14.75 6.5C14.75 5.94772 15.1977 5.5 15.75 5.5C16.3023 5.5 16.75 5.94772 16.75 6.5Z" />
+  </svg>
+);
+
+export default InstagramIcon;
