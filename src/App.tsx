@@ -1,41 +1,43 @@
 // src/App.tsx
-import React, { useEffect } from 'react'; 
-import type { ViewName, Call } from './types'; 
+import React, { useEffect } from 'react'; // Αφαιρέθηκαν Suspense και lazy
+import type { ViewName, Call } from './types';
 import { uiStrings } from './config/translations';
 import Sidebar from './components/Sidebar';
 import Header from './components/Header';
-import ScrollableContainer from './components/ScrollableContainer'; 
+import ScrollableContainer from './components/ScrollableContainer';
 import { Toaster } from 'react-hot-toast';
-import ModalAlert from './components/ui/ModalAlert'; 
-import ErrorBoundary from './components/ErrorBoundary'; 
-import AiDraftEmailModal from './components/AiDraftEmailModal'; 
-import ActiveCallBar from './components/voip/ActiveCallBar'; 
+import ModalAlert from './components/ui/ModalAlert';
+import ErrorBoundary from './components/ErrorBoundary';
+import AiDraftEmailModal from './components/AiDraftEmailModal';
+import ActiveCallBar from './components/voip/ActiveCallBar';
 import ActivityFormModal from './components/crm/modals/ActivityFormModal';
-import DocumentUploadModal from './components/crm/documents/DocumentUploadModal'; 
+import DocumentUploadModal from './components/crm/documents/DocumentUploadModal';
+// Icon import παραμένει, δεν σχετίζεται άμεσα με το lazy loading των σελίδων.
+import Icon from './components/ui/Icon';
 
-// Page Imports
+// Page Imports - Επιστροφή σε direct imports
 import ContactsPageLayout from './pages/ContactsPageLayout';
 import DashboardPage from './pages/DashboardPage';
 import UsersPage from './pages/UsersPage';
 import SettingsPage from './pages/SettingsPage';
-import PhonePage from './pages/PhonePage'; 
-import CrmPageLayout from './pages/CrmPageLayout'; 
-import PlaceholderView from './components/PlaceholderView'; 
-import SettingsDashboardTab from './dashboard/tabs/SettingsDashboardTab'; 
+import PhonePage from './pages/PhonePage';
+import CrmPageLayout from './pages/CrmPageLayout';
+import PlaceholderView from './components/PlaceholderView';
+import SettingsDashboardTab from './dashboard/tabs/SettingsDashboardTab';
 
 import { useUIStore } from './stores/uiStore';
-import { useCallStore } from './voip/stores/useCallStore'; 
+import { useCallStore } from './voip/stores/useCallStore';
 import { useGlobalSearchLogic } from './hooks/useGlobalSearchLogic';
-import { useEmailSender } from './hooks/useEmailSender'; 
-import type { EmailPayload } from './types/emailTypes'; 
-import toast from 'react-hot-toast'; 
-import { useUserStore } from './user/stores/userStore'; 
+import { useEmailSender } from './hooks/useEmailSender';
+import type { EmailPayload } from './types/emailTypes';
+import toast from 'react-hot-toast';
+import { useUserStore } from './user/stores/userStore';
+
+// PageLoadingFallback αφαιρέθηκε
 
 const App: React.FC = () => {
   const activeView = useUIStore(state => state.activeView);
-  // isSidebarCollapsed is no longer directly used for main content rounding here
-  // const isSidebarCollapsed = useUIStore(state => state.isSidebarCollapsed); 
-
+  
   const isAiDraftEmailModalOpen = useUIStore(state => state.isAiDraftEmailModalOpen);
   const aiDraftEmailContent = useUIStore(state => state.aiDraftEmailContent);
   const aiDraftEmailContactName = useUIStore(state => state.aiDraftEmailContactName);
@@ -44,37 +46,38 @@ const App: React.FC = () => {
   const aiDraftEmailError = useUIStore(state => state.aiDraftEmailError);
   const closeAiDraftEmailModal = useUIStore(state => state.closeAiDraftEmailModal);
   
-  const { sendEmail, sendStatus, error: emailSendError, resetStatus: resetEmailSendStatus } = useEmailSender(); 
+  const { sendEmail, sendStatus, error: emailSendError, resetStatus: resetEmailSendStatus } = useEmailSender();
 
-  // Removed mock call logic related to onToggleMockCall
-  
   const initializeUsers = useUserStore(state => state.initializeUsers);
-  const currentUser = useUserStore(state => state.currentUser); 
+  const currentUser = useUserStore(state => state.currentUser);
+
+  const isModalAlertOpen = useUIStore((state) => state.isModalAlertOpen);
+  const isActivityModalOpen = useUIStore(state => state.isActivityModalOpen);
+  const isDocumentUploadModalOpen = useUIStore(state => state.isDocumentUploadModalOpen);
 
   useEffect(() => {
-    initializeUsers(); 
+    initializeUsers();
   }, [initializeUsers]);
 
-
-  useGlobalSearchLogic(); 
+  useGlobalSearchLogic();
 
   const renderPageContent = () => {
     switch (activeView) {
       case 'contacts':
         return <ContactsPageLayout />;
       case 'dashboard':
-        return <DashboardPage userRoles={currentUser?.roles || []} />; 
+        return <DashboardPage userRoles={currentUser?.roles || []} />;
       case 'users':
         return <UsersPage />;
       case 'settings':
-        return <SettingsPage />; 
-      case 'phone': 
+        return <SettingsPage />;
+      case 'phone':
         return <PhonePage />;
-      case 'crmOverview': 
-        return <CrmPageLayout currentUser={currentUser} />; 
+      case 'crmOverview':
+        return <CrmPageLayout currentUser={currentUser} />;
       default:
-        if (activeView === 'dashboard-settings-editor') { 
-          return <SettingsDashboardTab userRoles={currentUser?.roles || []} />; 
+        if (activeView === 'dashboard-settings-editor') {
+          return <SettingsDashboardTab userRoles={currentUser?.roles || []} />;
         }
         const defaultTitleKey = `${activeView}Title` as keyof typeof uiStrings;
         const defaultTitle = uiStrings[defaultTitleKey] as string || "Άγνωστη Οθόνη";
@@ -88,11 +91,11 @@ const App: React.FC = () => {
         case 'users': return uiStrings.usersTitle;
         case 'settings': return uiStrings.settingsTitle;
         case 'contacts': return ""; 
-        case 'phone': return uiStrings.phonePageTitle; 
-        case 'crmOverview': return uiStrings.crmOverviewPageTitle; 
-        case 'dashboard-settings-editor': return "Ρυθμίσεις Πίνακα Ελέγχου"; 
+        case 'phone': return uiStrings.phonePageTitle;
+        case 'crmOverview': return uiStrings.crmOverviewPageTitle;
+        case 'dashboard-settings-editor': return "Ρυθμίσεις Πίνακα Ελέγχου";
     }
-    return "NESTOR"; 
+    return "NESTOR";
   }
 
   const handleSendEmailFromModal = async (editedDraft: string) => {
@@ -103,8 +106,8 @@ const App: React.FC = () => {
 
     const emailPayload: EmailPayload = {
         to: [{ email: aiDraftEmailContactEmail, name: aiDraftEmailContactName }],
-        subject: `Follow-up: ${aiDraftEmailContactName}`, 
-        bodyText: editedDraft, 
+        subject: `Follow-up: ${aiDraftEmailContactName}`,
+        bodyText: editedDraft,
     };
 
     const toastId = toast.loading("Αποστολή email...");
@@ -119,45 +122,43 @@ const App: React.FC = () => {
     closeAiDraftEmailModal();
   };
 
-
   return (
-    <div className="flex h-screen overflow-hidden bg-gray-900 text-gray-100"> 
+    <div className="flex h-screen overflow-hidden bg-gray-900 text-gray-100">
       <Sidebar />
       
       <div className="flex-1 flex flex-col overflow-hidden">
-        <Header 
-          title={getHeaderTitle()} 
-          // onToggleMockCall prop removed
-        /> 
+        <Header
+          title={getHeaderTitle()}
+        />
         
-        <main 
-          className={`flex-1 overflow-hidden bg-gray-900 rounded-tl-lg 
-                      transition-all duration-[1500ms] ease-[cubic-bezier(0.55,0,0.67,1.25)]`} 
-          // Always apply rounded-tl-lg. The transition will apply to other properties if the main element resizes due to sidebar.
+        <main
+          className={`flex-1 overflow-hidden bg-gray-900 rounded-tl-lg
+                      transition-all duration-[1500ms] ease-[cubic-bezier(0.55,0,0.67,1.25)]`}
         >
-          <ScrollableContainer axis="y" className="h-full p-2 sm:p-4 md:p-6"> 
+          <ScrollableContainer axis="y" className="h-full p-2 sm:p-4 md:p-6">
             <ErrorBoundary>
+              {/* Αφαιρέθηκε το Suspense wrapper */}
               {renderPageContent()}
             </ErrorBoundary>
           </ScrollableContainer>
         </main>
       </div>
       
-      <Toaster 
+      <Toaster
         position="top-right"
         reverseOrder={false}
         toastOptions={{
           className: '',
           duration: 5000,
           style: {
-            background: '#374151', 
-            color: '#F3F4F6', 
+            background: '#374151',
+            color: '#F3F4F6',
           },
           success: {
             duration: 3000,
             iconTheme: {
               primary: 'green',
-              secondary: '#F3F4F6', 
+              secondary: '#F3F4F6',
             },
           },
            error: {
@@ -165,19 +166,21 @@ const App: React.FC = () => {
           }
         }}
       />
-      <ModalAlert /> 
-      <AiDraftEmailModal
-        isOpen={isAiDraftEmailModalOpen}
-        onClose={closeAiDraftEmailModal}
-        draftContent={aiDraftEmailContent}
-        contactName={aiDraftEmailContactName}
-        isLoading={aiDraftEmailIsLoading}
-        error={aiDraftEmailError}
-        onSendEmail={handleSendEmailFromModal}
-      />
+      {isModalAlertOpen && <ModalAlert />}
+      {isAiDraftEmailModalOpen && (
+        <AiDraftEmailModal
+          isOpen={isAiDraftEmailModalOpen}
+          onClose={closeAiDraftEmailModal}
+          draftContent={aiDraftEmailContent}
+          contactName={aiDraftEmailContactName}
+          isLoading={aiDraftEmailIsLoading}
+          error={aiDraftEmailError}
+          onSendEmail={handleSendEmailFromModal}
+        />
+      )}
       <ActiveCallBar />
-      <ActivityFormModal />
-      <DocumentUploadModal /> 
+      {isActivityModalOpen && <ActivityFormModal />}
+      {isDocumentUploadModalOpen && <DocumentUploadModal />}
     </div>
   );
 };

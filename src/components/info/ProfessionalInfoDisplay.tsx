@@ -1,4 +1,3 @@
-
 // src/components/info/ProfessionalInfoDisplay.tsx
 import React from 'react';
 import type { NaturalPersonContact } from '../../types';
@@ -8,12 +7,13 @@ interface ProfessionalInfoDisplayProps {
   contact: NaturalPersonContact;
 }
 
-const DetailItem: React.FC<{ label: string; value?: string }> = ({ label, value }) => {
+const DetailItem: React.FC<{ label: string; value?: string }> = React.memo(({ label, value }) => {
   if (!value) return null;
   return <p className="text-xs text-gray-400"><span className="font-semibold">{label}:</span> {value}</p>;
-};
+});
+DetailItem.displayName = 'DetailItem';
 
-const ProfessionalInfoDisplay: React.FC<ProfessionalInfoDisplayProps> = ({ contact }) => {
+const ProfessionalInfoDisplay: React.FC<ProfessionalInfoDisplayProps> = React.memo(({ contact }) => {
   const { professionalInfo } = contact;
 
   if (!professionalInfo || 
@@ -33,6 +33,6 @@ const ProfessionalInfoDisplay: React.FC<ProfessionalInfoDisplayProps> = ({ conta
       </div>
     </div>
   );
-};
-
+});
+ProfessionalInfoDisplay.displayName = 'ProfessionalInfoDisplay';
 export default ProfessionalInfoDisplay;

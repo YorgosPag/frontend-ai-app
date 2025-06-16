@@ -1,4 +1,3 @@
-
 // src/automation/workflowEngine.ts
 import type { TriggerEventType, TriggerEventData, WorkflowRule, WorkflowCondition } from './workflowTypes';
 import { workflowRules } from './workflowRules';

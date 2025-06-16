@@ -1,4 +1,3 @@
-
 // src/components/info/AddressDisplay.tsx
 import React from 'react';
 import type { Address } from '../../types';
@@ -8,7 +7,7 @@ interface AddressDisplayProps {
   addresses?: Address[];
 }
 
-const AddressDisplay: React.FC<AddressDisplayProps> = ({ addresses }) => {
+const AddressDisplay: React.FC<AddressDisplayProps> = React.memo(({ addresses }) => {
   if (!addresses || addresses.length === 0) {
     return <p className="text-xs text-gray-500 mt-1">{uiStrings.noAddresses}</p>;
   }
@@ -35,6 +34,6 @@ const AddressDisplay: React.FC<AddressDisplayProps> = ({ addresses }) => {
       ))}
     </div>
   );
-};
-
+});
+AddressDisplay.displayName = 'AddressDisplay';
 export default AddressDisplay;

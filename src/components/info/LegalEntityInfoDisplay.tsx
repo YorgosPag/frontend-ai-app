@@ -1,4 +1,3 @@
-
 // src/components/info/LegalEntityInfoDisplay.tsx
 import React from 'react';
 import type { LegalEntityContact } from '../../types';
@@ -8,12 +7,13 @@ interface LegalEntityInfoDisplayProps {
   contact: LegalEntityContact;
 }
 
-const DetailItem: React.FC<{ label: string; value?: string }> = ({ label, value }) => {
+const DetailItem: React.FC<{ label: string; value?: string }> = React.memo(({ label, value }) => {
   if (!value) return null;
   return <p className="text-xs text-gray-400"><span className="font-semibold">{label}:</span> {value}</p>;
-};
+});
+DetailItem.displayName = 'DetailItem';
 
-const LegalEntityInfoDisplay: React.FC<LegalEntityInfoDisplayProps> = ({ contact }) => {
+const LegalEntityInfoDisplay: React.FC<LegalEntityInfoDisplayProps> = React.memo(({ contact }) => {
   const { brandName, companyType, gemhNumber, parentCompany } = contact;
 
   if (!brandName && !companyType && !gemhNumber && !parentCompany) {
@@ -31,6 +31,6 @@ const LegalEntityInfoDisplay: React.FC<LegalEntityInfoDisplayProps> = ({ contact
       </div>
     </div>
   );
-};
-
+});
+LegalEntityInfoDisplay.displayName = 'LegalEntityInfoDisplay';
 export default LegalEntityInfoDisplay;

@@ -1,4 +1,3 @@
-
 // src/components/info/IdentityInfoDisplay.tsx
 import React from 'react';
 import type { NaturalPersonContact } from '../../types';
@@ -8,12 +7,14 @@ interface IdentityInfoDisplayProps {
   contact: NaturalPersonContact;
 }
 
-const DetailItem: React.FC<{ label: string; value?: string }> = ({ label, value }) => {
+const DetailItem: React.FC<{ label: string; value?: string }> = React.memo(({ label, value }) => {
   if (!value) return null;
   return <p className="text-xs text-gray-400"><span className="font-semibold">{label}:</span> {value}</p>;
-};
+});
+DetailItem.displayName = 'DetailItem';
 
-const IdentityInfoDisplay: React.FC<IdentityInfoDisplayProps> = ({ contact }) => {
+
+const IdentityInfoDisplay: React.FC<IdentityInfoDisplayProps> = React.memo(({ contact }) => {
   const { dateOfBirth, parentalInfo, identityCardInfo, maritalStatus } = contact;
 
   const hasIdentityDetails = dateOfBirth || parentalInfo?.fatherName || parentalInfo?.motherName ||
@@ -39,6 +40,6 @@ const IdentityInfoDisplay: React.FC<IdentityInfoDisplayProps> = ({ contact }) =>
       </div>
     </div>
   );
-};
-
+});
+IdentityInfoDisplay.displayName = 'IdentityInfoDisplay';
 export default IdentityInfoDisplay;

@@ -1,4 +1,3 @@
-
 // src/components/info/TaxInfoDisplay.tsx
 import React from 'react';
 import type { BaseContact } from '../../types';
@@ -8,7 +7,7 @@ interface TaxInfoDisplayProps {
   taxInfo?: BaseContact['taxInfo'];
 }
 
-const TaxInfoDisplay: React.FC<TaxInfoDisplayProps> = ({ taxInfo }) => {
+const TaxInfoDisplay: React.FC<TaxInfoDisplayProps> = React.memo(({ taxInfo }) => {
   if (!taxInfo || (!taxInfo.afm && !taxInfo.doy)) {
     return null;
   }
@@ -22,6 +21,6 @@ const TaxInfoDisplay: React.FC<TaxInfoDisplayProps> = ({ taxInfo }) => {
         </div>
     </div>
   );
-};
-
+});
+TaxInfoDisplay.displayName = 'TaxInfoDisplay';
 export default TaxInfoDisplay;

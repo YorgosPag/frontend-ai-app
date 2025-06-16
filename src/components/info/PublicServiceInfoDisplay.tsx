@@ -1,4 +1,3 @@
-
 // src/components/info/PublicServiceInfoDisplay.tsx
 import React from 'react';
 import type { PublicServiceContact } from '../../types';
@@ -8,12 +7,13 @@ interface PublicServiceInfoDisplayProps {
   contact: PublicServiceContact;
 }
 
-const DetailItem: React.FC<{ label: string; value?: string }> = ({ label, value }) => {
+const DetailItem: React.FC<{ label: string; value?: string }> = React.memo(({ label, value }) => {
   if (!value) return null;
   return <p className="text-xs text-gray-400"><span className="font-semibold">{label}:</span> {value}</p>;
-};
+});
+DetailItem.displayName = 'DetailItem';
 
-const PublicServiceInfoDisplay: React.FC<PublicServiceInfoDisplayProps> = ({ contact }) => {
+const PublicServiceInfoDisplay: React.FC<PublicServiceInfoDisplayProps> = React.memo(({ contact }) => {
   const { serviceType, directorate, department } = contact;
 
   if (!serviceType && !directorate && !department) {
@@ -30,6 +30,6 @@ const PublicServiceInfoDisplay: React.FC<PublicServiceInfoDisplayProps> = ({ con
       </div>
     </div>
   );
-};
-
+});
+PublicServiceInfoDisplay.displayName = 'PublicServiceInfoDisplay';
 export default PublicServiceInfoDisplay;

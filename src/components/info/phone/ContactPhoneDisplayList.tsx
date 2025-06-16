@@ -15,7 +15,7 @@ interface ContactPhoneDisplayListProps {
   onStartCall?: (phoneNumber: ContactPhoneNumber) => void; // Νέα prop
 }
 
-const ContactPhoneDisplayList: React.FC<ContactPhoneDisplayListProps> = ({
+const ContactPhoneDisplayList: React.FC<ContactPhoneDisplayListProps> = React.memo(({
   phoneNumbers,
   uiStrings,
   className = '',
@@ -126,6 +126,6 @@ const ContactPhoneDisplayList: React.FC<ContactPhoneDisplayListProps> = ({
       })}
     </ul>
   );
-};
-
+});
+ContactPhoneDisplayList.displayName = 'ContactPhoneDisplayList';
 export default ContactPhoneDisplayList;

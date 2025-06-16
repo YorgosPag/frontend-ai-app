@@ -20,7 +20,7 @@ interface ContactInfoDisplayProps {
   onStartCall?: (phoneNumber: ContactPhoneNumber) => void;
 }
 
-const ContactInfoDisplay: React.FC<ContactInfoDisplayProps> = ({ contact, onStartCall }) => {
+const ContactInfoDisplay: React.FC<ContactInfoDisplayProps> = React.memo(({ contact, onStartCall }) => {
   const addRoleToContact = useContactsStore(state => state.addRoleToContact);
 
   const handleSuggestedCategoryClick = (category: string) => {
@@ -112,6 +112,6 @@ const ContactInfoDisplay: React.FC<ContactInfoDisplayProps> = ({ contact, onStar
       )}
     </div>
   );
-};
-
+});
+ContactInfoDisplay.displayName = 'ContactInfoDisplay';
 export default ContactInfoDisplay;

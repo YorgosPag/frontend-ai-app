@@ -1,4 +1,3 @@
-
 // src/components/info/PropertyAttributesDisplay.tsx
 import React from 'react';
 import type { NaturalPersonContact } from '../../types';
@@ -8,17 +7,18 @@ interface PropertyAttributesDisplayProps {
   contact: NaturalPersonContact;
 }
 
-const AttributeItem: React.FC<{ label: string; checked?: boolean }> = ({ label, checked }) => {
+const AttributeItem: React.FC<{ label: string; checked?: boolean }> = React.memo(({ label, checked }) => {
   if (checked === undefined) return null; // Don't render if not explicitly set
   return (
     <p className={`text-xs ${checked ? 'text-green-400' : 'text-red-400'}`}>
       <span className="font-semibold">{label}:</span> {checked ? 'Ναι' : 'Όχι'}
     </p>
   );
-};
+});
+AttributeItem.displayName = 'AttributeItem';
 
 
-const PropertyAttributesDisplay: React.FC<PropertyAttributesDisplayProps> = ({ contact }) => {
+const PropertyAttributesDisplay: React.FC<PropertyAttributesDisplayProps> = React.memo(({ contact }) => {
   const { propertyAttributes } = contact;
 
   if (!propertyAttributes || 
@@ -46,6 +46,6 @@ const PropertyAttributesDisplay: React.FC<PropertyAttributesDisplayProps> = ({ c
       </div>
     </div>
   );
-};
-
+});
+PropertyAttributesDisplay.displayName = 'PropertyAttributesDisplay';
 export default PropertyAttributesDisplay;

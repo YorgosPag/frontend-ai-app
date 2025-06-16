@@ -9,7 +9,7 @@ interface SocialMediaLinksDisplayProps {
   links?: SocialMediaLink[];
 }
 
-const SocialMediaLinksDisplay: React.FC<SocialMediaLinksDisplayProps> = ({ links }) => {
+const SocialMediaLinksDisplay: React.FC<SocialMediaLinksDisplayProps> = React.memo(({ links }) => {
   if (!links || links.length === 0) {
     return null;
   }
@@ -63,6 +63,6 @@ const SocialMediaLinksDisplay: React.FC<SocialMediaLinksDisplayProps> = ({ links
       </div>
     </div>
   );
-};
-
+});
+SocialMediaLinksDisplay.displayName = 'SocialMediaLinksDisplay';
 export default SocialMediaLinksDisplay;

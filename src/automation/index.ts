@@ -1,4 +1,3 @@
-
 // src/automation/index.ts
 
 // Export types

@@ -92,7 +92,7 @@ const SettingsDashboardTab: React.FC<SettingsDashboardTabProps> = ({ userRoles }
                 <div>
                   <h3 className="text-base font-medium text-gray-100">{widgetConfig.title}</h3> {/* text-sm to text-base */}
                   {widgetConfig.description && (
-                    <p className="text-sm text-gray-400 mt-0.5">{widgetConfig.description}</p> {/* text-xs to text-sm */}
+                    <p className="text-sm text-gray-400 mt-0.5">{widgetConfig.description}</p>
                   )}
                 </div>
                 <Toggle

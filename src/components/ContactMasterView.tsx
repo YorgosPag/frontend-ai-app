@@ -10,10 +10,10 @@ import Button from './ui/Button';
 import Icon from './ui/Icon';
 
 interface ContactMasterViewProps {
-  contacts: Contact[]; // Filtered & Sorted contacts (potentially after local search term)
-  totalContactsCount: number; // Total count from fetched data (before any filtering)
-  totalFilteredAndSortedContactsCount: number; // Count after global filters/sorts, before local search term
-  isSearching: boolean; // Is local search term active?
+  contacts: Contact[]; 
+  totalContactsCount: number; 
+  totalFilteredAndSortedContactsCount: number; 
+  isSearching: boolean; 
   isLoading: boolean;
   fetchError: string | null;
   onRefetch?: () => void;
@@ -39,10 +39,15 @@ const ContactMasterView: React.FC<ContactMasterViewProps> = ({
     setActiveView('contacts'); 
   };
 
+  const ulStyle: React.CSSProperties = {
+    perspective: '1200px', // Apply perspective to the parent for 3D effect
+    perspectiveOrigin: 'center center', // Adjust as needed
+  };
+
   const renderContent = () => {
     if (isLoading) {
       return (
-        <ul className="divide-y divide-slate-700">
+        <ul className="divide-y divide-slate-700 py-2" style={ulStyle}> {/* Added py-2 for padding */}
           {Array.from({ length: 7 }).map((_, index) => (
             <SkeletonContactListItem key={index} />
           ))}
@@ -65,7 +70,7 @@ const ContactMasterView: React.FC<ContactMasterViewProps> = ({
       );
     }
 
-    if (totalContactsCount === 0 && !isSearching) { // No contacts at all in the system
+    if (totalContactsCount === 0 && !isSearching) { 
       return (
          <div className="flex flex-col items-center justify-center h-full text-center text-gray-500 p-4">
           <Icon name="user" size="w-16 h-16" className="mb-3" />
@@ -75,7 +80,6 @@ const ContactMasterView: React.FC<ContactMasterViewProps> = ({
     }
     
     if (contacts.length === 0 && (isSearching || totalFilteredAndSortedContactsCount < totalContactsCount )) { 
-      // No results after local search OR global filters yielded no results from a non-empty total list
       return (
         <div className="flex flex-col items-center justify-center h-full text-center text-gray-500 p-4">
           <Icon name="search" size="w-12 h-12" className="mb-3 text-gray-600" />
@@ -85,7 +89,7 @@ const ContactMasterView: React.FC<ContactMasterViewProps> = ({
     }
 
     return (
-      <ul className="divide-y divide-slate-700">
+      <ul className="divide-y divide-slate-700 py-2" style={ulStyle}> {/* Added py-2 for padding */}
         {contacts.map(contact => ( 
           <ContactListItem
             key={contact.id}
@@ -103,16 +107,16 @@ const ContactMasterView: React.FC<ContactMasterViewProps> = ({
   if (showFooter) {
     if (totalContactsCount === 0) {
       footerText = "Καμία επαφή";
-    } else if (totalFilteredAndSortedContactsCount < totalContactsCount) { // Global filters are active
+    } else if (totalFilteredAndSortedContactsCount < totalContactsCount) { 
       if (isSearching) {
         footerText = `${contacts.length} από ${totalFilteredAndSortedContactsCount} (Σύνολο: ${totalContactsCount})`;
       } else {
         footerText = `${totalFilteredAndSortedContactsCount} από ${totalContactsCount} Επαφές`;
       }
-    } else if (isSearching) { // Only local search is active
+    } else if (isSearching) { 
         footerText = `${contacts.length} από ${totalContactsCount} Επαφές`;
     }
-     else { // No filters, no search
+     else { 
       footerText = `${totalContactsCount} ${totalContactsCount === 1 ? 'Επαφή' : 'Επαφές'}`;
     }
   }
