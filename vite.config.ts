@@ -10,9 +10,9 @@ const __dirname = path.dirname(__filename);
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      optimizeDeps: {
-        include: ['immer'], // Ensure immer is pre-bundled
-      },
+      // optimizeDeps: { // Removed this block
+      //   include: ['immer'], 
+      // },
       define: {
         'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
         'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY)
@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         },
-        dedupe: ['immer'] // Added to ensure consistent 'immer' resolution
+        dedupe: ['immer'] // Kept to ensure consistent 'immer' resolution
       }
     };
 });
