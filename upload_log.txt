@@ -1656,3 +1656,594 @@ M	vite.config.ts
 Reset branch 'main'
 [Δευ 16/06/2025 14:08:01,04] Successfully on branch 'main'. 
 [Δευ 16/06/2025 14:08:01,16] Adding all changes to Git (respecting .gitignore)... 
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/voip_design_notes.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'index.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'metadata.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/actionExecutor.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/index.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/workflowRules.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/workflowService.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/workflowTypes.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/AiDraftEmailModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/AiSummaryModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Avatar.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ConfirmationModal.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ContactCard.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ContactForm.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ContactListItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ContactMasterView.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ErrorBoundary.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/GlobalSearchResultsDropdown.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Header.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/filters/ContactFilterControls.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/AddressFormSection.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/CommonContactFields.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/LegalEntityFields.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/NaturalPersonFields.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/PublicServiceFields.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/formFields/phone/ContactPhoneInput.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/AlertTriangleIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ArrowUturnLeftIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/BellIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/CheckCircleIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ChevronDoubleLeftIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ChevronDoubleRightIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ClipboardDocumentIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/CloseIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/CogIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/DashboardIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/DialpadIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/EditIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/EmailIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ErrorCircleIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/EyeIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/EyeSlashIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FacebookIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FileArchiveIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FileGenericIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FileImageIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FilePdfIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/FilterIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/InfoIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/InstagramIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/LinkedInIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PhoneIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PinIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PinOutlineIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/PlusIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/SearchIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/SettingsIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/SpinnerIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/SuccessCircleIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/TelegramIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/TikTokIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/TrashIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/UserIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/UsersGroupIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/ViberIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/WebsiteIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/WhatsAppIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/XIcon.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/icons/index.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/notes/AddNoteForm.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/notes/NoteItem.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/ui/Button.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/voip/DialPad.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/config/initialData.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/data/mockCrmData.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/activity.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/building.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/company.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/document.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/floor.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/group.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/pipelineEntry.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/pipelineStage.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/project.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/property.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/crm/services/propertyAccessory.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/components/SortableWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/checklists/ChecklistManagerWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/documents/DocumentsOverviewWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/documents/PendingDeliverablesWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/inbox/PendingActionsWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/inbox/YourFeedWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/kpis/OverdueBehaviorWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/kpis/ResponsivenessWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/kpis/TaskCompletionRateWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/overview/RecentContactsListWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/people/TeamActivityWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/people/UserImpactLogWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/people/UserPerformanceSummaryWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/projects/BlockedProjectItemsWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/projects/ProjectListSummaryWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/projects/UpcomingProjectDeadlinesWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/tasks/DueSoonTasksWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/tasks/MyTasksWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/tasks/OverdueTasksWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/tasks/TeamTasksWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/timeline/TimelineActivityFeedWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/today/NotificationsFeedWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/today/RecentCallsWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/today/RemindersTodayWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/today/TodayTasksWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/widgetsRegistry.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/evaluations/services/evaluation.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/evaluations/widgets/TeamEvaluationWidget.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useAddressesFieldArray.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/useContactForm.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/hooks/usePhoneNumbersFieldArray.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/notes/services/note.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/notes/stores/notesStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/reminders/services/reminder.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/services/contact.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/stores/notesStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/stores/notificationsStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/stores/useCallStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/contact.service.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/formUtils.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/user/preferences/dashboardPreferences.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/user/stores/dashboardStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/utils/formUtils.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/voip/adapters/MockAdapter.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/voip/stores/useCallStore.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'upload_log.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/actionHandlers/addTagToContactHandler.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/actionHandlers/aiActionHandlers.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/actionHandlers/createNoteHandler.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/actionHandlers/logMessageHandler.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/actionHandlers/sendEmailHandler.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/actionHandlers/showNotificationToUserHandler.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/automation/actionHandlers/updateContactFieldHandler.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/checklists/checklistsWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/documents/documentsWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/evaluations/evaluationsWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/inbox/inboxWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/overview/overviewWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/people/peopleWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/projects/projectsWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/reports/reportsWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/system/systemWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/tasks/tasksWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/timeline/timelineWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/today/todayWidgets.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/dashboard/widgets/widgetBaseComponents.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/features/contacts/utils/contactFormMappers.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/features/contacts/utils/contactZodValidator.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/features/contacts/utils/socialMediaFormatters.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/features/contacts/utils/contactFormMappers.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/features/contacts/utils/getInitialFormState.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/features/contacts/utils/initializeFormStateFromContact.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/features/contacts/utils/prepareContactDataForSubmission.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/features/contacts/utils/socialMediaFormatters.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/tests/unit/utils/idUtils.test.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/utils/dataCleaners.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/utils/idUtils.ts', LF will be replaced by CRLF the next time Git touches it
+[Δευ 16/06/2025 14:08:07,16] Committing changes... 
+[main e2fa2fc] Auto-update from script 'nestor_ftb_01(6).zip' at Δευ 16/06/2025 14:08:07,26
+ 173 files changed, 2843 insertions(+), 1764 deletions(-)
+ create mode 100644 src/automation/actionHandlers/addTagToContactHandler.ts
+ create mode 100644 src/automation/actionHandlers/aiActionHandlers.ts
+ create mode 100644 src/automation/actionHandlers/createNoteHandler.ts
+ create mode 100644 src/automation/actionHandlers/logMessageHandler.ts
+ create mode 100644 src/automation/actionHandlers/sendEmailHandler.ts
+ create mode 100644 src/automation/actionHandlers/showNotificationToUserHandler.ts
+ create mode 100644 src/automation/actionHandlers/updateContactFieldHandler.ts
+ create mode 100644 src/components/ui/ChartBarIcon.tsx
+ create mode 100644 src/dashboard/widgets/checklists/checklistsWidgets.ts
+ create mode 100644 src/dashboard/widgets/documents/documentsWidgets.ts
+ create mode 100644 src/dashboard/widgets/evaluations/evaluationsWidgets.ts
+ create mode 100644 src/dashboard/widgets/inbox/inboxWidgets.ts
+ create mode 100644 src/dashboard/widgets/overview/overviewWidgets.ts
+ create mode 100644 src/dashboard/widgets/people/peopleWidgets.ts
+ create mode 100644 src/dashboard/widgets/projects/projectsWidgets.ts
+ create mode 100644 src/dashboard/widgets/reports/reportsWidgets.ts
+ create mode 100644 src/dashboard/widgets/system/systemWidgets.ts
+ create mode 100644 src/dashboard/widgets/tasks/tasksWidgets.ts
+ create mode 100644 src/dashboard/widgets/timeline/timelineWidgets.ts
+ create mode 100644 src/dashboard/widgets/today/todayWidgets.ts
+ create mode 100644 src/dashboard/widgets/widgetBaseComponents.ts
+ create mode 100644 src/features/contacts/utils/contactFormMappers.ts
+ create mode 100644 src/features/contacts/utils/contactZodValidator.ts
+ create mode 100644 src/features/contacts/utils/socialMediaFormatters.ts
+ create mode 100644 src/tests/unit/features/contacts/utils/contactFormMappers.test.ts
+ create mode 100644 src/tests/unit/features/contacts/utils/getInitialFormState.test.ts
+ create mode 100644 src/tests/unit/features/contacts/utils/initializeFormStateFromContact.test.ts
+ create mode 100644 src/tests/unit/features/contacts/utils/prepareContactDataForSubmission.test.ts
+ create mode 100644 src/tests/unit/features/contacts/utils/socialMediaFormatters.test.ts
+ create mode 100644 src/tests/unit/utils/idUtils.test.ts
+ create mode 100644 src/utils/dataCleaners.ts
+ create mode 100644 src/utils/idUtils.ts
+ create mode 100644 styles/index.css
+[Δευ 16/06/2025 14:08:10,30] Changes committed with message: Auto-update from script 'nestor_ftb_01(6).zip' at Δευ 16/06/2025 14:08:07,26 
+[Δευ 16/06/2025 14:08:10,40] Pushing changes to GitHub on branch 'main' (using --force)... 
+To https://github.com/YorgosPag/frontend-ai-app.git
+   2eb1250..e2fa2fc  main -> main
+[Δευ 16/06/2025 14:08:12,79] Changes pushed successfully to GitHub. 
+[Δευ 16/06/2025 14:08:15,21] --- Script Finished Successfully --- 
+[Δευ 16/06/2025 14:08:15,33] Summary: 
+[Δευ 16/06/2025 14:08:15,43]   Processed ZIP: nestor_ftb_01(6).zip 
+[Δευ 16/06/2025 14:08:15,53]   Files in destination: 4854 
+[Δευ 16/06/2025 14:08:15,63]   Folders in destination: 939 
+[Δευ 16/06/2025 14:08:15,73]   'node_modules' folder was preserved and excluded from Git commit. 
+[Δευ 16/06/2025 14:08:15,83] ======================================== 
+[Δευ 16/06/2025 14:22:19,51] GitHub Token found in environment variable GITHUB_TOKEN_FOR_SCRIPT. 
+[Δευ 16/06/2025 14:22:19,64] --- Script Started (Main Logic) --- 
+[Δευ 16/06/2025 14:22:19,78] Source directory: C:\Users\user\Downloads 
+[Δευ 16/06/2025 14:22:19,91] Destination directory: F:\Nestor\frontend-ai-app 
+[Δευ 16/06/2025 14:22:20,03] Searching for latest ZIP file in 'C:\Users\user\Downloads' matching 'nestor_*.zip'... 
+[Δευ 16/06/2025 14:22:20,15] Found latest zip file: nestor_ftb_01(7).zip 
+[Δευ 16/06/2025 14:22:20,29] Copying 'nestor_ftb_01(7).zip' to temporary path 'F:\Nestor\frontend-ai-app\__temp_for_extraction.zip'... 
+        1 file(s) copied.
+[Δευ 16/06/2025 14:22:20,69] Temporary copy created successfully. 
+[Δευ 16/06/2025 14:22:20,82] Extracting temporary zip '__temp_for_extraction.zip' to 'F:\Nestor\frontend-ai-app' (overwriting existing files, skipping 'node_modules')... 
+[PS CLI] Manual Extraction. Source: 'F:\Nestor\frontend-ai-app\__temp_for_extraction.zip', Dest: 'F:\Nestor\frontend-ai-app', Skip: 'node_modules', Overwrite: True
+[PS CLI] Overwrote: 'index.tsx'
+[PS CLI] Overwrote: 'metadata.json'
+[PS CLI] Overwrote: 'index.html'
+[PS CLI] Overwrote: 'package.json'
+[PS CLI] Overwrote: 'README.md'
+[PS CLI] Overwrote: 'tsconfig.json'
+[PS CLI] Overwrote: 'vite.config.ts'
+[PS CLI] Overwrote: 'docs/voip_design_notes.md'
+[PS CLI] Overwrote: 'src/App.tsx'
+[PS CLI] Overwrote: 'src/automation/index.ts'
+[PS CLI] Overwrote: 'src/automation/README.md'
+[PS CLI] Overwrote: 'src/automation/workflowEngine.ts'
+[PS CLI] Overwrote: 'src/automation/workflowRules.ts'
+[PS CLI] Overwrote: 'src/automation/workflowService.ts'
+[PS CLI] Overwrote: 'src/automation/workflowTypes.ts'
+[PS CLI] Overwrote: 'src/components/AiDraftEmailModal.tsx'
+[PS CLI] Overwrote: 'src/components/AiSummaryModal.tsx'
+[PS CLI] Overwrote: 'src/components/Avatar.tsx'
+[PS CLI] Overwrote: 'src/components/ConfirmationModal.tsx'
+[PS CLI] Overwrote: 'src/components/ContactCard.tsx'
+[PS CLI] Overwrote: 'src/components/ContactForm.tsx'
+[PS CLI] Overwrote: 'src/components/ContactListItem.tsx'
+[PS CLI] Overwrote: 'src/components/ContactMasterView.tsx'
+[PS CLI] Overwrote: 'src/components/ErrorBoundary.tsx'
+[PS CLI] Overwrote: 'src/components/filters/ContactFilterControls.tsx'
+[PS CLI] Overwrote: 'src/components/formFields/AddressFormSection.tsx'
+[PS CLI] Overwrote: 'src/components/formFields/CommonContactFields.tsx'
+[PS CLI] Overwrote: 'src/components/formFields/LegalEntityFields.tsx'
+[PS CLI] Overwrote: 'src/components/formFields/NaturalPersonFields.tsx'
+[PS CLI] Overwrote: 'src/components/formFields/phone/ContactPhoneInput.tsx'
+[PS CLI] Overwrote: 'src/components/formFields/PublicServiceFields.tsx'
+[PS CLI] Overwrote: 'src/components/GlobalSearchResultsDropdown.tsx'
+[PS CLI] Overwrote: 'src/components/Header.tsx'
+[PS CLI] Overwrote: 'src/components/icons/AlertTriangleIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/ArrowUturnLeftIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/BellIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/CheckCircleIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/ChevronDoubleLeftIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/ChevronDoubleRightIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/ClipboardDocumentIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/CloseIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/CogIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/DashboardIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/DialpadIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/EditIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/EmailIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/ErrorCircleIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/EyeIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/EyeSlashIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/FacebookIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/FileArchiveIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/FileGenericIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/FileImageIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/FilePdfIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/FileTextIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/FilterIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/FormatBoldIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/FormatItalicIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/index.ts'
+[PS CLI] Overwrote: 'src/components/icons/InfoIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/InstagramIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/LinkedInIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/ListBulletIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/MicrophoneIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/MicrophoneSlashIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/MinusIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/PaperAirplaneIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/PaperclipIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/PauseCircleIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/PhoneHangupIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/PhoneIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/PinIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/PinOutlineIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/PlusIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/QueueListIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/SearchIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/SettingsIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/SignalIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/SparklesIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/SpinnerIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/SuccessCircleIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/TelegramIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/TikTokIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/TrashIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/UserIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/UsersGroupIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/ViberIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/WebsiteIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/WhatsAppIcon.tsx'
+[PS CLI] Overwrote: 'src/components/icons/XIcon.tsx'
+[PS CLI] Overwrote: 'src/components/info/AddressDisplay.tsx'
+[PS CLI] Overwrote: 'src/components/info/IdentityInfoDisplay.tsx'
+[PS CLI] Overwrote: 'src/components/info/LegalEntityInfoDisplay.tsx'
+[PS CLI] Overwrote: 'src/components/info/phone/ContactPhoneDisplayList.tsx'
+[PS CLI] Overwrote: 'src/components/info/ProfessionalInfoDisplay.tsx'
+[PS CLI] Overwrote: 'src/components/info/PropertyAttributesDisplay.tsx'
+[PS CLI] Overwrote: 'src/components/info/PublicServiceInfoDisplay.tsx'
+[PS CLI] Overwrote: 'src/components/info/SocialMediaLinksDisplay.tsx'
+[PS CLI] Overwrote: 'src/components/info/TaxInfoDisplay.tsx'
+[PS CLI] Overwrote: 'src/components/LogoDisplay.tsx'
+[PS CLI] Overwrote: 'src/components/notes/AddNoteForm.tsx'
+[PS CLI] Overwrote: 'src/components/notes/ContactNotesSection.tsx'
+[PS CLI] Overwrote: 'src/components/notes/NoteFilters.tsx'
+[PS CLI] Overwrote: 'src/components/notes/NoteItem.tsx'
+[PS CLI] Overwrote: 'src/components/notifications/NotificationBell.tsx'
+[PS CLI] Overwrote: 'src/components/notifications/NotificationItem.tsx'
+[PS CLI] Overwrote: 'src/components/notifications/NotificationPanel.tsx'
+[PS CLI] Overwrote: 'src/components/notifications/NotificationSettingsModal.tsx'
+[PS CLI] Overwrote: 'src/components/PlaceholderView.tsx'
+[PS CLI] Overwrote: 'src/components/ScrollableContainer.tsx'
+[PS CLI] Overwrote: 'src/components/Sidebar.tsx'
+[PS CLI] Overwrote: 'src/components/skeletons/SkeletonAvatar.tsx'
+[PS CLI] Overwrote: 'src/components/skeletons/SkeletonContactListItem.tsx'
+[PS CLI] Overwrote: 'src/components/skeletons/SkeletonText.tsx'
+[PS CLI] Overwrote: 'src/components/ui/AlertBanner.tsx'
+[PS CLI] Overwrote: 'src/components/ui/Button.tsx'
+[PS CLI] Overwrote: 'src/components/ui/Checkbox.tsx'
+[PS CLI] Overwrote: 'src/components/ui/contactCard/ContactCardActions.tsx'
+[PS CLI] Overwrote: 'src/components/ui/contactCard/contactCardUtils.ts'
+[PS CLI] Overwrote: 'src/components/ui/contactCard/ContactHeader.tsx'
+[PS CLI] Overwrote: 'src/components/ui/contactCard/ContactInfoDisplay.tsx'
+[PS CLI] Overwrote: 'src/components/ui/DashboardWidget.tsx'
+[PS CLI] Overwrote: 'src/components/ui/FieldError.tsx'
+[PS CLI] Overwrote: 'src/components/ui/FormFieldWrapper.tsx'
+[PS CLI] Overwrote: 'src/components/ui/Icon.tsx'
+[PS CLI] Overwrote: 'src/components/ui/Input.tsx'
+[PS CLI] Overwrote: 'src/components/ui/Label.tsx'
+[PS CLI] Overwrote: 'src/components/ui/MentionTextarea.tsx'
+[PS CLI] Overwrote: 'src/components/ui/ModalAlert.tsx'
+[PS CLI] Overwrote: 'src/components/ui/NumberInput.tsx'
+[PS CLI] Overwrote: 'src/components/ui/PasswordInput.tsx'
+[PS CLI] Overwrote: 'src/components/ui/Popover.tsx'
+[PS CLI] Overwrote: 'src/components/ui/Radio.tsx'
+[PS CLI] Overwrote: 'src/components/ui/RadioGroup.tsx'
+[PS CLI] Overwrote: 'src/components/ui/Select.tsx'
+[PS CLI] Overwrote: 'src/components/ui/Textarea.tsx'
+[PS CLI] Overwrote: 'src/components/ui/Toggle.tsx'
+[PS CLI] Overwrote: 'src/components/ui/tooltip/tooltipUtils.ts'
+[PS CLI] Overwrote: 'src/components/ui/Tooltip.tsx'
+[PS CLI] Overwrote: 'src/components/users/UserListItem.tsx'
+[PS CLI] Overwrote: 'src/components/voip/ActiveCallBar.tsx'
+[PS CLI] Overwrote: 'src/components/voip/DialPad.tsx'
+[PS CLI] Overwrote: 'src/config/initialData.ts'
+[PS CLI] Overwrote: 'src/config/strings/appStrings.ts'
+[PS CLI] Overwrote: 'src/config/strings/cardStrings.ts'
+[PS CLI] Overwrote: 'src/config/strings/enumTranslations.ts'
+[PS CLI] Overwrote: 'src/config/strings/formStrings.ts'
+[PS CLI] Overwrote: 'src/config/strings/modalStrings.ts'
+[PS CLI] Overwrote: 'src/config/translations.ts'
+[PS CLI] Overwrote: 'src/constants/emailStatus.ts'
+[PS CLI] Overwrote: 'src/data/mocks/emails.ts'
+[PS CLI] Overwrote: 'src/data/mocks/users.ts'
+[PS CLI] Overwrote: 'src/hooks/notes/useContactNotes.ts'
+[PS CLI] Overwrote: 'src/hooks/useAddressesFieldArray.ts'
+[PS CLI] Overwrote: 'src/hooks/useContactForm.ts'
+[PS CLI] Overwrote: 'src/hooks/useCreateContact.ts'
+[PS CLI] Overwrote: 'src/hooks/useDeleteContact.ts'
+[PS CLI] Overwrote: 'src/hooks/useEmailSender.ts'
+[PS CLI] Overwrote: 'src/hooks/useFetchContacts.ts'
+[PS CLI] Overwrote: 'src/hooks/useGlobalSearchLogic.ts'
+[PS CLI] Overwrote: 'src/hooks/useNotification.ts'
+[PS CLI] Overwrote: 'src/hooks/usePhoneNumbersFieldArray.ts'
+[PS CLI] Overwrote: 'src/hooks/usePortalContainer.ts'
+[PS CLI] Overwrote: 'src/hooks/useTooltipEffects.ts'
+[PS CLI] Overwrote: 'src/hooks/useTooltipState.ts'
+[PS CLI] Overwrote: 'src/hooks/useTooltipTriggers.ts'
+[PS CLI] Overwrote: 'src/hooks/useUpdateContact.ts'
+[PS CLI] Overwrote: 'src/hooks/useVoipHandler.ts'
+[PS CLI] Overwrote: 'src/index.tsx'
+[PS CLI] Overwrote: 'src/notes/hooks/useContactNotes.ts'
+[PS CLI] Overwrote: 'src/notes/schemas/noteSchemas.ts'
+[PS CLI] Overwrote: 'src/notes/services/note.service.ts'
+[PS CLI] Overwrote: 'src/notes/stores/notesStore.ts'
+[PS CLI] Overwrote: 'src/notes/types/noteTypes.ts'
+[PS CLI] Overwrote: 'src/pages/ContactDetailPage.tsx'
+[PS CLI] Overwrote: 'src/pages/ContactFormPage.tsx'
+[PS CLI] Overwrote: 'src/pages/ContactsPageLayout.tsx'
+[PS CLI] Overwrote: 'src/pages/DashboardPage.tsx'
+[PS CLI] Overwrote: 'src/pages/PhonePage.tsx'
+[PS CLI] Overwrote: 'src/pages/SettingsPage.tsx'
+[PS CLI] Overwrote: 'src/pages/UsersPage.tsx'
+[PS CLI] Overwrote: 'src/schemas/contactSchemas.ts'
+[PS CLI] Overwrote: 'src/schemas/emailSchema.ts'
+[PS CLI] Overwrote: 'src/services/contact.service.ts'
+[PS CLI] Overwrote: 'src/services/email.service.ts'
+[PS CLI] Overwrote: 'src/services/geminiService.ts'
+[PS CLI] Overwrote: 'src/services/note.service.ts'
+[PS CLI] Overwrote: 'src/stores/contactsStore.ts'
+[PS CLI] Overwrote: 'src/stores/notesStore.ts'
+[PS CLI] Overwrote: 'src/stores/notificationsStore.ts'
+[PS CLI] Overwrote: 'src/stores/uiStore.ts'
+[PS CLI] Overwrote: 'src/tests/unit/contact.service.test.ts'
+[PS CLI] Overwrote: 'src/tests/unit/email.service.test.ts'
+[PS CLI] Overwrote: 'src/tests/unit/formUtils.test.ts'
+[PS CLI] Overwrote: 'src/tests/unit/README.md'
+[PS CLI] Overwrote: 'src/types/emailTypes.ts'
+[PS CLI] Overwrote: 'src/types/iconTypes.ts'
+[PS CLI] Overwrote: 'src/types/noteTypes.ts'
+[PS CLI] Overwrote: 'src/types/notificationTypes.ts'
+[PS CLI] Overwrote: 'src/types.ts'
+[PS CLI] Overwrote: 'src/utils/formUtils.ts'
+[PS CLI] Overwrote: 'src/utils/phoneUtils.ts'
+[PS CLI] Overwrote: 'src/voip/adapters/MockAdapter.ts'
+[PS CLI] Overwrote: 'src/voip/hooks/useVoipHandler.ts'
+[PS CLI] Overwrote: 'src/voip/schemas/VoipConfigSchema.ts'
+[PS CLI] Overwrote: 'src/voip/services/VoipManager.ts'
+[PS CLI] Overwrote: 'src/voip/services/voipServiceInstance.ts'
+[PS CLI] Overwrote: 'src/voip/stores/useCallStore.ts'
+[PS CLI] Overwrote: 'src/voip/types/adapterTypes.ts'
+[PS CLI] Overwrote: 'src/voip/types/callTypes.ts'
+[PS CLI] Overwrote: 'styles/fonts/README.md'
+[PS CLI] Overwrote: 'styles/typography/tokens.css'
+[PS CLI] Overwrote: 'src/auth/roles.ts'
+[PS CLI] Overwrote: 'src/auth/permissions.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/widgetsRegistry.ts'
+[PS CLI] Overwrote: 'src/components/icons/ChartBarIcon.tsx'
+[PS CLI] Overwrote: 'src/dashboard/components/DashboardShell.tsx'
+[PS CLI] Overwrote: 'src/dashboard/components/DashboardTabs.tsx'
+[PS CLI] Overwrote: 'src/dashboard/components/DashboardGrid.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/today/TodayTasksWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/today/RemindersTodayWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/today/NotificationsFeedWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/today/RecentCallsWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/people/UserPerformanceSummaryWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/people/TeamActivityWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/people/UserImpactLogWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/tasks/MyTasksWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/tasks/TeamTasksWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/tasks/OverdueTasksWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/tasks/DueSoonTasksWidget.tsx'
+[PS CLI] Overwrote: 'src/reminders/models/Reminder.ts'
+[PS CLI] Overwrote: 'src/reminders/services/reminder.service.ts'
+[PS CLI] Overwrote: 'src/reminders/engine/reminderScheduler.ts'
+[PS CLI] Overwrote: 'src/reminders/rules/index.ts'
+[PS CLI] Overwrote: 'src/user/preferences/dashboardPreferences.ts'
+[PS CLI] Overwrote: 'src/user/stores/dashboardStore.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/overview/RecentContactsListWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/projects/ProjectListSummaryWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/projects/UpcomingProjectDeadlinesWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/projects/BlockedProjectItemsWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/documents/DocumentsOverviewWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/documents/PendingDeliverablesWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/timeline/TimelineActivityFeedWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/inbox/YourFeedWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/inbox/PendingActionsWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/checklists/ChecklistManagerWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/personalization/WidgetManager.tsx'
+[PS CLI] Overwrote: 'src/dashboard/personalization/LayoutControls.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/kpis/TaskCompletionRateWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/kpis/OverdueBehaviorWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/widgets/kpis/ResponsivenessWidget.tsx'
+[PS CLI] Overwrote: 'src/evaluations/models/Evaluation.ts'
+[PS CLI] Overwrote: 'src/evaluations/services/evaluation.service.ts'
+[PS CLI] Overwrote: 'src/evaluations/widgets/TeamEvaluationWidget.tsx'
+[PS CLI] Overwrote: 'src/dashboard/tabs/SettingsDashboardTab.tsx'
+[PS CLI] Overwrote: 'src/user/stores/userStore.ts'
+[PS CLI] Overwrote: 'src/stores/useCallStore.ts'
+[PS CLI] Overwrote: 'src/crm/types/crmBaseTypes.ts'
+[PS CLI] Overwrote: 'src/crm/types/groupTypes.ts'
+[PS CLI] Overwrote: 'src/crm/types/companyTypes.ts'
+[PS CLI] Overwrote: 'src/crm/types/projectTypes.ts'
+[PS CLI] Overwrote: 'src/crm/types/buildingTypes.ts'
+[PS CLI] Overwrote: 'src/crm/types/floorTypes.ts'
+[PS CLI] Overwrote: 'src/crm/types/propertyTypes.ts'
+[PS CLI] Overwrote: 'src/crm/types/propertyAccessoryTypes.ts'
+[PS CLI] Overwrote: 'src/crm/types/crmRelationships.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/crmBaseSchemas.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/groupSchemas.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/companySchemas.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/projectSchemas.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/buildingSchemas.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/floorSchemas.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/propertySchemas.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/propertyAccessorySchemas.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/crmRelationshipSchemas.ts'
+[PS CLI] Overwrote: 'src/crm/data/mockCrmData.ts'
+[PS CLI] Overwrote: 'src/crm/services/group.service.ts'
+[PS CLI] Overwrote: 'src/crm/services/company.service.ts'
+[PS CLI] Overwrote: 'src/crm/services/project.service.ts'
+[PS CLI] Overwrote: 'src/crm/services/property.service.ts'
+[PS CLI] Overwrote: 'src/crm/services/building.service.ts'
+[PS CLI] Overwrote: 'src/crm/services/floor.service.ts'
+[PS CLI] Overwrote: 'src/crm/services/propertyAccessory.service.ts'
+[PS CLI] Overwrote: 'src/components/crm/ProjectCard.tsx'
+[PS CLI] Overwrote: 'src/pages/CrmPageLayout.tsx'
+[PS CLI] Overwrote: 'src/crm/types/pipelineTypes.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/pipelineStageSchemas.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/pipelineEntrySchemas.ts'
+[PS CLI] Overwrote: 'src/crm/services/pipelineStage.service.ts'
+[PS CLI] Overwrote: 'src/crm/services/pipelineEntry.service.ts'
+[PS CLI] Overwrote: 'src/crm/types/activityTypes.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/activitySchemas.ts'
+[PS CLI] Overwrote: 'src/crm/services/activity.service.ts'
+[PS CLI] Overwrote: 'src/crm/types/activityTypeMappings.ts'
+[PS CLI] Overwrote: 'src/components/crm/forms/ActivityForm.tsx'
+[PS CLI] Overwrote: 'src/components/crm/modals/ActivityFormModal.tsx'
+[PS CLI] Overwrote: 'src/crm/types/documentTypes.ts'
+[PS CLI] Overwrote: 'src/crm/schemas/documentSchemas.ts'
+[PS CLI] Overwrote: 'src/crm/services/document.service.ts'
+[PS CLI] Overwrote: 'src/components/crm/documents/DocumentList.tsx'
+[PS CLI] Overwrote: 'src/components/crm/documents/DocumentUploadForm.tsx'
+[PS CLI] Overwrote: 'src/components/crm/documents/DocumentUploadModal.tsx'
+[PS CLI] Overwrote: 'src/components/crm/documents/DocumentListItem.tsx'
+[PS CLI] Overwrote: 'src/dashboard/components/SortableWidget.tsx'
+[PS CLI] Overwrote: 'src/automation/utils.ts'
+[PS CLI] Overwrote: 'src/automation/actionExecutor.ts'
+[PS CLI] Overwrote: 'src/utils/idUtils.ts'
+[PS CLI] Overwrote: 'src/utils/dataCleaners.ts'
+[PS CLI] Overwrote: 'src/features/contacts/utils/socialMediaFormatters.ts'
+[PS CLI] Overwrote: 'src/features/contacts/utils/contactFormMappers.ts'
+[PS CLI] Overwrote: 'src/features/contacts/utils/contactZodValidator.ts'
+[PS CLI] Overwrote: 'src/tests/unit/utils/idUtils.test.ts'
+[PS CLI] Overwrote: 'src/tests/unit/features/contacts/utils/socialMediaFormatters.test.ts'
+[PS CLI] Overwrote: 'src/tests/unit/features/contacts/utils/contactFormMappers.test.ts'
+[PS CLI] Overwrote: 'src/tests/unit/features/contacts/utils/getInitialFormState.test.ts'
+[PS CLI] Overwrote: 'src/tests/unit/features/contacts/utils/initializeFormStateFromContact.test.ts'
+[PS CLI] Overwrote: 'src/tests/unit/features/contacts/utils/prepareContactDataForSubmission.test.ts'
+[PS CLI] Overwrote: 'src/components/ui/ChartBarIcon.tsx'
+[PS CLI] Overwrote: 'styles/index.css'
+[PS CLI] Overwrote: 'src/dashboard/widgets/today/todayWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/overview/overviewWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/people/peopleWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/tasks/tasksWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/projects/projectsWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/documents/documentsWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/timeline/timelineWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/system/systemWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/inbox/inboxWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/checklists/checklistsWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/reports/reportsWidgets.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/evaluations/evaluationsWidgets.ts'
+[PS CLI] Overwrote: 'src/automation/actionHandlers/sendEmailHandler.ts'
+[PS CLI] Overwrote: 'src/automation/actionHandlers/addTagToContactHandler.ts'
+[PS CLI] Overwrote: 'src/automation/actionHandlers/updateContactFieldHandler.ts'
+[PS CLI] Overwrote: 'src/automation/actionHandlers/showNotificationToUserHandler.ts'
+[PS CLI] Overwrote: 'src/automation/actionHandlers/createNoteHandler.ts'
+[PS CLI] Overwrote: 'src/automation/actionHandlers/logMessageHandler.ts'
+[PS CLI] Overwrote: 'src/automation/actionHandlers/aiActionHandlers.ts'
+[PS CLI] Overwrote: 'src/dashboard/widgets/widgetBaseComponents.ts'
+[PS CLI] Overwrote: '.env.local'
+[PS CLI] Overwrote: '.gitignore'
+[PS CLI] Manual extraction completed (skipped node_modules).
+[PS CLI] Archive disposed.
+[Δευ 16/06/2025 14:22:56,64] Deleting temporary zip file 'F:\Nestor\frontend-ai-app\__temp_for_extraction.zip'... 
+[Δευ 16/06/2025 14:22:56,77] Temporary zip file deleted successfully. 
+[Δευ 16/06/2025 14:22:56,87] Zip file extracted successfully (skipped 'node_modules'). 
+[Δευ 16/06/2025 14:22:56,97] Changing directory to 'F:\Nestor\frontend-ai-app' for Git operations... 
+[Δευ 16/06/2025 14:22:57,08] Successfully changed directory. Current directory: F:\Nestor\frontend-ai-app 
+[Δευ 16/06/2025 14:22:57,18] Attempting to configure Git safe directory for 'F:\Nestor\frontend-ai-app'... 
+[Δευ 16/06/2025 14:22:57,38] Git safe.directory configuration command executed successfully (or was already set). 
+[Δευ 16/06/2025 14:22:57,51] Existing Git repository found in 'F:\Nestor\frontend-ai-app'. 
+[Δευ 16/06/2025 14:22:57,62] Ensuring 'node_modules/' is in .gitignore... 
+[Δευ 16/06/2025 14:22:57,75] 'node_modules/' not found in .gitignore. Appending it. 
+[Δευ 16/06/2025 14:22:57,87] The folder 'node_modules' will not be pushed to GitHub or Supabase (via .gitignore). 
+[Δευ 16/06/2025 14:22:57,97] Configuring local Git user for this commit... 
+[Δευ 16/06/2025 14:22:58,47] Attempting to checkout/create branch 'main'... 
+M	src/components/crm/documents/DocumentListItem.tsx
+M	upload_log.txt
+Reset branch 'main'
+[Δευ 16/06/2025 14:23:02,84] Successfully on branch 'main'. 
+[Δευ 16/06/2025 14:23:02,94] Adding all changes to Git (respecting .gitignore)... 

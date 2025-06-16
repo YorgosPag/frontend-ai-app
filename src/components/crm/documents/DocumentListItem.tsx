@@ -16,7 +16,7 @@ interface DocumentListItemProps {
 const getFileTypeIconName = (fileType: string): IconName => {
   if (fileType.startsWith('image/')) return 'fileImage';
   if (fileType === 'application/pdf') return 'filePdf';
-  if (fileType.includes('wordprocessingml') || fileType === 'application/msword')) return 'fileText';
+  if (fileType.includes('wordprocessingml') || fileType === 'application/msword') return 'fileText'; // Corrected line
   if (fileType === 'text/plain') return 'fileText';
   if (['application/zip', 'application/x-rar-compressed', 'application/x-7z-compressed', 'application/x-tar'].includes(fileType)) return 'fileArchive';
   return 'fileGeneric';
