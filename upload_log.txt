@@ -1,13 +1,13 @@
-[Δευ 16/06/2025 20:16:31,06] GitHub Token found in environment variable GITHUB_TOKEN_FOR_SCRIPT. 
-[Δευ 16/06/2025 20:16:31,73] --- Script Started (Main Logic Continued) --- 
-[Δευ 16/06/2025 20:16:31,76] Source directory: C:\Users\user\Downloads 
-[Δευ 16/06/2025 20:16:31,78] Destination directory: F:\Nestor\frontend-ai-app 
-[Δευ 16/06/2025 20:16:31,80] Searching for latest ZIP file in 'C:\Users\user\Downloads' matching 'nestor_*.zip'... 
-[Δευ 16/06/2025 20:16:31,84] Found latest zip file: nestor_ftb_01(12).zip 
-[Δευ 16/06/2025 20:16:31,86] Copying 'nestor_ftb_01(12).zip' to temporary path 'F:\Nestor\frontend-ai-app\__temp_for_extraction.zip'... 
+[Δευ 16/06/2025 20:26:50,91] GitHub Token found in environment variable GITHUB_TOKEN_FOR_SCRIPT. 
+[Δευ 16/06/2025 20:26:50,94] --- Script Started (Main Logic Continued) --- 
+[Δευ 16/06/2025 20:26:50,96] Source directory: C:\Users\user\Downloads 
+[Δευ 16/06/2025 20:26:50,99] Destination directory: F:\Nestor\frontend-ai-app 
+[Δευ 16/06/2025 20:26:51,01] Searching for latest ZIP file in 'C:\Users\user\Downloads' matching 'nestor_*.zip'... 
+[Δευ 16/06/2025 20:26:51,04] Found latest zip file: nestor_ftb_01(12).zip 
+[Δευ 16/06/2025 20:26:51,07] Copying 'nestor_ftb_01(12).zip' to temporary path 'F:\Nestor\frontend-ai-app\__temp_for_extraction.zip'... 
         1 file(s) copied.
-[Δευ 16/06/2025 20:16:32,01] Temporary copy created successfully. 
-[Δευ 16/06/2025 20:16:32,40] Extracting temporary zip '__temp_for_extraction.zip' to 'F:\Nestor\frontend-ai-app' (overwriting existing files, skipping 'node_modules' and 'dist')... 
+[Δευ 16/06/2025 20:26:51,21] Temporary copy created successfully. 
+[Δευ 16/06/2025 20:26:51,22] Extracting temporary zip '__temp_for_extraction.zip' to 'F:\Nestor\frontend-ai-app' (overwriting existing files, skipping 'node_modules' and 'dist')... 
 [PS CLI] Manual Extraction. Source: 'F:\Nestor\frontend-ai-app\__temp_for_extraction.zip', Dest: 'F:\Nestor\frontend-ai-app', SkipNode: 'node_modules', SkipDist: 'dist', Overwrite: True
 [PS CLI] Overwrote: 'index.tsx'
 [PS CLI] Overwrote: 'metadata.json'
@@ -352,19 +352,20 @@
 [PS CLI] Overwrote: '.gitignore'
 [PS CLI] Manual extraction completed (skipped node_modules and dist).
 [PS CLI] Archive disposed.
-[Δευ 16/06/2025 20:17:06,48] Deleting temporary zip file 'F:\Nestor\frontend-ai-app\__temp_for_extraction.zip'... 
-[Δευ 16/06/2025 20:17:06,54] Temporary zip file deleted successfully. 
-[Δευ 16/06/2025 20:17:06,56] Zip file extracted successfully (skipped 'node_modules' and 'dist'). 
-[Δευ 16/06/2025 20:17:11,14] Changing directory to 'F:\Nestor\frontend-ai-app' for subsequent operations... 
-[Δευ 16/06/2025 20:17:11,17] Successfully changed directory. Current directory: F:\Nestor\frontend-ai-app 
-[Δευ 16/06/2025 20:17:12,73] Ensuring 'dist/' IS in .gitignore... 
-[Δευ 16/06/2025 20:17:12,81] 'dist/' not found in .gitignore. Appending it. 
-[Δευ 16/06/2025 20:17:12,84] The folder 'dist' will be ignored by Git (via .gitignore). 
-[Δευ 16/06/2025 20:17:12,86] Ensuring 'node_modules/' IS in .gitignore... 
-[Δευ 16/06/2025 20:17:12,92] 'node_modules/' not found in .gitignore. Appending it. 
-[Δευ 16/06/2025 20:17:12,96] The folder 'node_modules' will not be pushed to GitHub (via .gitignore). 
-[Δευ 16/06/2025 20:17:13,72] --- Preparing to run npm run build --- 
-[Δευ 16/06/2025 20:17:13,89] NPM command found. Executing 'npm run build' in a new window and waiting... 
+[Δευ 16/06/2025 20:27:24,93] Deleting temporary zip file 'F:\Nestor\frontend-ai-app\__temp_for_extraction.zip'... 
+[Δευ 16/06/2025 20:27:24,99] Temporary zip file deleted successfully. 
+[Δευ 16/06/2025 20:27:25,01] Zip file extracted successfully (skipped 'node_modules' and 'dist'). 
+[Δευ 16/06/2025 20:27:25,04] Changing directory to 'F:\Nestor\frontend-ai-app' for subsequent operations... 
+[Δευ 16/06/2025 20:27:25,06] Successfully changed directory. Current directory: F:\Nestor\frontend-ai-app 
+[Δευ 16/06/2025 20:27:25,09] Ensuring 'dist/' IS in .gitignore... 
+[Δευ 16/06/2025 20:27:25,14] 'dist/' not found in .gitignore. Appending it. 
+[Δευ 16/06/2025 20:27:25,18] The folder 'dist' will be ignored by Git (via .gitignore). 
+[Δευ 16/06/2025 20:27:25,20] Ensuring 'node_modules/' IS in .gitignore... 
+[Δευ 16/06/2025 20:27:25,26] 'node_modules/' not found in .gitignore. Appending it. 
+[Δευ 16/06/2025 20:27:25,29] The folder 'node_modules' will not be pushed to GitHub (via .gitignore). 
+[Δευ 16/06/2025 20:27:25,32] .gitignore handling complete. 
+[Δευ 16/06/2025 20:27:25,34] --- Preparing to run npm run build --- 
+[Δευ 16/06/2025 20:27:25,48] NPM command found. Executing 'npm run build' in a new window and waiting... 
 
 > nestor_ftb@0.0.0 build
 > vite build
@@ -388,29 +389,19 @@ computing gzip size...
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
-[32m✓ built in 28.26s[39m
-[Δευ 16/06/2025 20:17:43,55] 'npm run build' (executed in new window) finished with errorlevel: 0 
-[Δευ 16/06/2025 20:17:44,51] 'npm run build' command completed successfully. 
-[Δευ 16/06/2025 20:17:45,25] --- Starting Git Operations --- 
-[Δευ 16/06/2025 20:17:45,28] Attempting to configure Git safe directory for 'F:\Nestor\frontend-ai-app'... 
-[Δευ 16/06/2025 20:17:45,41] Git safe.directory configuration command executed successfully (or was already set). 
-[Δευ 16/06/2025 20:17:45,43] Existing Git repository found in 'F:\Nestor\frontend-ai-app'. 
-[Δευ 16/06/2025 20:17:45,46] Configuring local Git user for this commit... 
-[Δευ 16/06/2025 20:17:45,80] Attempting to checkout/create branch 'main'... 
+[32m✓ built in 28.10s[39m
+[Δευ 16/06/2025 20:27:54,96] 'npm run build' (executed in new window) finished with errorlevel: 0 
+[Δευ 16/06/2025 20:27:54,99] 'npm run build' command completed successfully. 
+[Δευ 16/06/2025 20:27:55,01] NPM build finished successfully. Continuing with Git operations... 
+[Δευ 16/06/2025 20:27:55,04] --- Starting Git Operations --- 
+[Δευ 16/06/2025 20:27:55,07] Attempting to configure Git safe directory for 'F:\Nestor\frontend-ai-app'... 
+[Δευ 16/06/2025 20:27:55,20] Git safe.directory configuration command executed successfully (or was already set). 
+[Δευ 16/06/2025 20:27:55,23] Existing Git repository found in 'F:\Nestor\frontend-ai-app'. 
+[Δευ 16/06/2025 20:27:55,26] Configuring local Git user for this commit... 
+[Δευ 16/06/2025 20:27:55,60] Attempting to checkout/create branch 'main'... 
 M	upload_log.txt
-Your branch is ahead of 'origin/main' by 4 commits.
+Your branch is ahead of 'origin/main' by 5 commits.
   (use "git push" to publish your local commits)
 Reset branch 'main'
-[Δευ 16/06/2025 20:17:46,82] Successfully on branch 'main'. 
-[Δευ 16/06/2025 20:17:46,85] --- Checking Git status BEFORE 'git add .' --- 
-On branch main
-Your branch is ahead of 'origin/main' by 4 commits.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   upload_log.txt
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[Δευ 16/06/2025 20:17:49,24] Adding all changes to Git (respecting .gitignore)... 
+[Δευ 16/06/2025 20:27:56,61] Successfully on branch 'main'. 
+[Δευ 16/06/2025 20:27:56,63] Adding all changes to Git (respecting .gitignore)... 
