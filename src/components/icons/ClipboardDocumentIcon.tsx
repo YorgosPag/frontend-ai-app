@@ -1,3 +1,4 @@
+
 // src/components/icons/ClipboardDocumentIcon.tsx
 // Heroicons: clipboard-document
 import React from 'react';

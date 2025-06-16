@@ -1,6 +1,6 @@
 // src/config/initialData.ts
 import type { Contact, Note, UserReference, EntityType } from '../types'; // EntityType added for explicit casting
-import { generateUniqueId } from '../utils/formUtils'; 
+import { generateUniqueId } from '../utils/idUtils'; // Updated import path
 import { mockUsers } from '../data/mocks/users'; // Import mockUsers
 
 const now = new Date().toISOString();

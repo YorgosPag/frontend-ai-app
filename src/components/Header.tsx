@@ -1,3 +1,4 @@
+
 // src/components/Header.tsx
 import React, { useRef, useState } from 'react';
 import { uiStrings } from '../config/translations';

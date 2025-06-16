@@ -1,6 +1,6 @@
 // src/components/ui/Button.tsx
 import React from 'react';
-import SpinnerIcon from '../icons/SpinnerIcon';
+import { SpinnerIcon } from '../icons'; // Corrected import
 
 export type ButtonVariant = 'primary' | 'secondary' | 'danger' | 'ghost' | 'link' | 'icon';
 type ButtonSize = 'sm' | 'md' | 'lg';

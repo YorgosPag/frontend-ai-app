@@ -2,7 +2,7 @@
 import type { Note, NoteVisibility, NoteType, UserReference, Attachment } from '../types/noteTypes';
 import type { EntityType } from '../../types'; // <<< CORRECTED IMPORT
 import { useNotesStore } from '../stores/notesStore'; 
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 import { NoteSchema } from '../schemas/noteSchemas'; // For validation (conceptual)
 import { z } from 'zod'; // For ZodError type
 

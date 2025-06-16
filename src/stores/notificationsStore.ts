@@ -3,7 +3,7 @@ import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
 import type { AppNotification, AppNotificationKind } from '../types/notificationTypes'; // AppNotificationKind added
 import { allAppNotificationKinds } from '../types/notificationTypes'; // Import the array
-import { generateUniqueId } from '../utils/formUtils';
+import { generateUniqueId } from '../utils/idUtils'; // Updated import
 import { mockUsers } from '../data/mocks/users'; 
 
 // Sample notifications for initial state (optional)
@@ -55,7 +55,7 @@ const sampleAppNotifications: AppNotification[] = [
     id: generateUniqueId(),
     type: 'entity_created',
     title: 'Νέα Επαφή Δημιουργήθηκε',
-    message: 'Η επαφή "Ελένη Νικολάου" δημιουργήθηκε από τον @admin_user.',
+    message: `Η επαφή "Ελένη Νικολάου" δημιουργήθηκε από τον @${mockUsers.find(u => u.username === 'admin_user')?.username || 'admin_user'}.`,
     timestamp: new Date(Date.now() - 30 * 60 * 1000).toISOString(), // 30 minutes ago
     isRead: false,
     icon: 'plus',

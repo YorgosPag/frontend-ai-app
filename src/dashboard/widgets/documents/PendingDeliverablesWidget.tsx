@@ -1,6 +1,6 @@
 // src/dashboard/widgets/documents/PendingDeliverablesWidget.tsx
 import React from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry'; // Adjust path if necessary
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 
 interface PendingDeliverablesWidgetProps {
   config: DashboardWidgetConfig;

@@ -1,4 +1,3 @@
-
 // src/components/icons/LinkedInIcon.tsx
 import React from 'react';
 

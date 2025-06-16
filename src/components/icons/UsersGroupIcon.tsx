@@ -1,4 +1,3 @@
-
 // src/components/icons/UsersGroupIcon.tsx
 import React from 'react';
 

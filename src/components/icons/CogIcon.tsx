@@ -1,3 +1,4 @@
+
 // src/components/icons/CogIcon.tsx
 // Heroicons: cog-6-tooth (or cog for simpler version)
 import React from 'react';

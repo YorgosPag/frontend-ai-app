@@ -1,3 +1,4 @@
+
 // src/automation/workflowTypes.ts
 import type { Role as ImportedRole } from '../types'; // Import Role
 

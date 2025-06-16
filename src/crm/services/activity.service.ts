@@ -2,7 +2,7 @@
 import type { Activity } from '../types/activityTypes';
 import { ActivitySchema, ActivityBaseObjectSchema } from '../schemas/activitySchemas';
 import { activitiesDB, projectsDB, propertiesDB, pipelineEntriesDB } from '../data/mockCrmData';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 import { z } from 'zod';
 import type { AppRole } from '../../auth/roles';
 import { hasPermission, PERMISSIONS } from '../../auth/permissions';

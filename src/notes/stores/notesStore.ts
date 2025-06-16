@@ -5,7 +5,7 @@ import type { Note, UserReference, NoteType, NoteVisibility } from '../types/not
 import type { EntityType } from '../../types'; // <<< CORRECTED IMPORT
 import { initialNotes } from '../../config/initialData';
 // workflowService import is no longer needed here for dispatching NOTE_ADDED
-// generateUniqueId is not needed here anymore as the service handles ID creation for new notes
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 
 interface NotesState {
   notes: Note[];

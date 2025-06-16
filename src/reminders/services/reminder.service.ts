@@ -1,7 +1,7 @@
 // src/reminders/services/reminder.service.ts
 import type { Reminder, ReminderStatus, ReminderTriggerType } from '../models/Reminder';
 import type { EntityType } from '../../types';
-import { generateUniqueId } from '../../utils/formUtils'; // Adjust path as needed
+import { generateUniqueId } from '../../utils/idUtils'; // Adjust path as needed
 // import { useNotificationsStore } from '../../stores/notificationsStore'; // If service directly interacts with notifications store
 // import { workflowService } from '../../automation/workflowService'; // If reminders trigger workflows
 

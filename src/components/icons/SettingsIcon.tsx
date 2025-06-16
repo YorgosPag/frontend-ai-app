@@ -1,4 +1,3 @@
-
 // src/components/icons/SettingsIcon.tsx
 import React from 'react';
 

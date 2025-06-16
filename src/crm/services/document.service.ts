@@ -2,7 +2,7 @@
 import type { Document } from '../types/documentTypes';
 import { DocumentSchema } from '../schemas/documentSchemas';
 import { documentsDB, projectsDB, companiesDB, propertiesDB /* other DBs as needed */ } from '../data/mockCrmData';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 import { z } from 'zod';
 import type { AppRole } from '../../auth/roles';
 import { hasPermission, PERMISSIONS } from '../../auth/permissions';

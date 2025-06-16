@@ -1,6 +1,6 @@
 // src/dashboard/widgets/tasks/OverdueTasksWidget.tsx
 import React from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry'; // Adjust path as needed
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 
 interface OverdueTasksWidgetProps {
   config: DashboardWidgetConfig;

@@ -1,6 +1,6 @@
 // src/dashboard/widgets/today/RecentCallsWidget.tsx
 import React, { useMemo } from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry';
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 import { useCallStore } from '../../../voip/stores/useCallStore';
 import { useContactsStore } from '../../../stores/contactsStore';
 import type { Call } from '../../../voip/types/callTypes';

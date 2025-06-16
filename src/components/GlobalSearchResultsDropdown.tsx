@@ -1,3 +1,4 @@
+
 // src/components/GlobalSearchResultsDropdown.tsx
 import React, { useRef, useEffect } from 'react';
 import { createPortal } from 'react-dom';

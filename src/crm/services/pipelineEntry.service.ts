@@ -2,7 +2,7 @@
 import type { PipelineEntry } from '../types/pipelineTypes';
 import { PipelineEntrySchema, PipelineEntryObjectSchema } from '../schemas/pipelineEntrySchemas';
 import { pipelineEntriesDB, pipelineStagesDB, projectsDB, propertiesDB } from '../data/mockCrmData';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 import { z } from 'zod';
 import type { AppRole } from '../../auth/roles';
 import { hasPermission, PERMISSIONS } from '../../auth/permissions';

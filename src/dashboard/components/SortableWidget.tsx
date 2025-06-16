@@ -3,7 +3,7 @@ import React from 'react';
 import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import DashboardWidgetWrapper from '../../components/ui/DashboardWidget';
-import type { DashboardWidgetConfig } from '../widgets/widgetsRegistry';
+import type { DashboardWidgetConfig } from '../widgets/widgetBaseComponents'; // Updated import
 
 interface SortableWidgetProps {
   widgetConfig: DashboardWidgetConfig;

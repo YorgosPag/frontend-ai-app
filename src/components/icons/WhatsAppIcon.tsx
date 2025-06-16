@@ -1,4 +1,3 @@
-
 // src/components/icons/WhatsAppIcon.tsx
 import React from 'react';
 

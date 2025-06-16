@@ -8,7 +8,7 @@ import {
 } from '../../services/contact.service';
 import type { Contact, NaturalPersonContact, LegalEntityContact } from '../../types';
 import { useContactsStore } from '../../stores/contactsStore';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils';
 
 // --- Mocking Setup (Conceptual) ---
 // In Jest/Vitest:

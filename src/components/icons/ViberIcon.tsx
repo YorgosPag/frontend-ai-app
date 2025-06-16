@@ -1,4 +1,3 @@
-
 // src/components/icons/ViberIcon.tsx
 import React from 'react';
 

@@ -1,4 +1,3 @@
-
 // src/components/icons/TelegramIcon.tsx
 import React from 'react';
 

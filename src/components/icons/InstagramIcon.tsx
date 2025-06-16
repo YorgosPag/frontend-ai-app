@@ -1,4 +1,3 @@
-
 // src/components/icons/InstagramIcon.tsx
 import React from 'react';
 

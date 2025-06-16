@@ -1,4 +1,5 @@
 
+
 // src/components/Avatar.tsx
 import React from 'react';
 

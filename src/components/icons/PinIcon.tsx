@@ -1,4 +1,3 @@
-
 // src/components/icons/PinIcon.tsx
 import React from 'react';
 

@@ -1,6 +1,6 @@
 // src/dashboard/widgets/projects/UpcomingProjectDeadlinesWidget.tsx
 import React from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry'; // Adjust path if necessary
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 
 interface UpcomingProjectDeadlinesWidgetProps {
   config: DashboardWidgetConfig;

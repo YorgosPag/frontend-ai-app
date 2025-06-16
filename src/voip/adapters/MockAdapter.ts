@@ -5,7 +5,7 @@ import type {
 } from '../types/adapterTypes';
 import type { CallStatus, CallHangupReason, Call } from '../types/callTypes';
 import type { Contact } from '../../types';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 
 interface MockSessionData {
   session: CallSession;

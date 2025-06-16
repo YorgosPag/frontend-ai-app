@@ -1,6 +1,6 @@
 // src/dashboard/widgets/today/NotificationsFeedWidget.tsx
 import React from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry';
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 // import { useNotificationsStore } from '../../../stores/notificationsStore'; // Would be used in full implementation
 
 interface NotificationsFeedWidgetProps {

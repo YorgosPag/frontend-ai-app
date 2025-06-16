@@ -1,6 +1,6 @@
 // src/dashboard/widgets/inbox/PendingActionsWidget.tsx
 import React from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry';
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 
 interface PendingActionsWidgetProps {
   config: DashboardWidgetConfig;

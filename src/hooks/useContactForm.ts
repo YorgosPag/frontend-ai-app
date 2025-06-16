@@ -8,7 +8,8 @@ import type {
   SocialMediaLink
 } from '../types';
 import { roleTranslations, uiStrings } from '../config/translations';
-import { getInitialFormState, generateUniqueId, prepareContactDataForSubmission, initializeFormStateFromContact } from '../utils/formUtils';
+// Updated imports for refactored utilities
+import { getInitialFormState, prepareContactDataForSubmission, initializeFormStateFromContact } from '../features/contacts/utils/contactFormMappers';
 import type { FieldErrors } from '../schemas/contactSchemas';
 
 import { usePhoneNumbersFieldArray } from './usePhoneNumbersFieldArray';

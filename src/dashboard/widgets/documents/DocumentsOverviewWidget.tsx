@@ -1,6 +1,6 @@
 // src/dashboard/widgets/documents/DocumentsOverviewWidget.tsx
 import React from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry'; // Adjust path if necessary
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 
 interface DocumentsOverviewWidgetProps {
   config: DashboardWidgetConfig;

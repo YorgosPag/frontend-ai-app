@@ -1,4 +1,5 @@
 
+
 // src/components/icons/ChevronDoubleRightIcon.tsx
 import React from 'react';
 

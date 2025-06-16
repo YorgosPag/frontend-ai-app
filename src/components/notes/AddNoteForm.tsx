@@ -15,7 +15,7 @@ import type { IconName } from '../../types/iconTypes';
 import { allNoteTypesArray, allNoteVisibilitiesArray } from '../../notes/types/noteTypes'; // <<< CORRECTED IMPORT
 import { uiStrings, noteTypeTranslations, noteVisibilityTranslations } from '../../config/translations';
 import { mockUsers } from '../../data/mocks/users';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 
 const MAX_ATTACHMENT_SIZE_MB = 2;
 const MAX_ATTACHMENTS_COUNT = 3;

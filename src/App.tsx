@@ -1,3 +1,4 @@
+
 // src/App.tsx
 import React, { useEffect } from 'react'; // Αφαιρέθηκαν Suspense και lazy
 import type { ViewName, Call } from './types';

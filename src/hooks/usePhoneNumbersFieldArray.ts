@@ -1,7 +1,7 @@
 // src/hooks/usePhoneNumbersFieldArray.ts
 import { useState, useCallback } from 'react';
 import type { ContactPhoneNumber, PhoneType, PhoneProtocol, VoIPIntegrationDetails } from '../types';
-import { generateUniqueId } from '../utils/formUtils';
+import { generateUniqueId } from '../utils/idUtils';
 
 interface UsePhoneNumbersFieldArrayReturn {
   phoneNumbers: ContactPhoneNumber[];

@@ -4,7 +4,7 @@ import type { Address } from '../../types';
 import { CompanySchema } from '../schemas/companySchemas'; // CompanySchema from its own file
 import { AddressSchema } from '../../schemas/contactSchemas'; // AddressSchema from central location
 import { companiesDB, groupsDB } from '../data/mockCrmData';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 import { z } from 'zod';
 
 const MOCK_API_DELAY_MS = 180;

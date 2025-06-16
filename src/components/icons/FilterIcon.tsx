@@ -11,6 +11,5 @@ const FilterIcon: React.FC<React.SVGProps<SVGSVGElement>> = (props) => (
 );
 // This is using 'AdjustmentsVerticalIcon' as a filter icon representation.
 // For a funnel: <path strokeLinecap="round" strokeLinejoin="round" d="M12 3c-1.1 0-2 .9-2 2v11.586l-3.293-3.293a1 1 0 00-1.414 1.414l5 5a1 1 0 001.414 0l5-5a1 1 0 00-1.414-1.414L14 16.586V5c0-1.1-.9-2-2-2z" />
-// Or a simpler funnel: <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12.75H4.5m15 0a2.25 2.25 0 01-2.25 2.25H6.75a2.25 2.25 0 01-2.25-2.25m15 0V6a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6v6.75m15 0v3.75a2.25 2.25 0 01-2.25 2.25H6.75a2.25 2.25 0 01-2.25-2.25v-3.75" />
-
+// Or a simpler funnel: <path strokeLinecap="round" strokeLinejoin="round" d
 export default FilterIcon;

@@ -1,3 +1,4 @@
+
 // src/components/ContactMasterView.tsx
 import React from 'react';
 import type { Contact } from '../types'; 

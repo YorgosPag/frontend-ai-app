@@ -2,7 +2,7 @@
 import type { PropertyAccessoryType } from '../types/propertyAccessoryTypes';
 import { PropertyAccessorySchema } from '../schemas/propertyAccessorySchemas';
 import { propertyAccessoriesDB, propertiesDB } from '../data/mockCrmData';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 import { z } from 'zod';
 
 const MOCK_API_DELAY_MS = 100;

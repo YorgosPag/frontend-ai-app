@@ -1,3 +1,4 @@
+
 // src/components/icons/ErrorCircleIcon.tsx
 // Placeholder - Svg for Heroicons x-circle
 import React from 'react';

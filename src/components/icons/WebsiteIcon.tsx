@@ -1,4 +1,3 @@
-
 // src/components/icons/WebsiteIcon.tsx
 import React from 'react';
 

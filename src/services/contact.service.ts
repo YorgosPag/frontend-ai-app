@@ -1,5 +1,3 @@
-
-
 // src/services/contact.service.ts
 import type { 
   Contact, NaturalPersonContact, LegalEntityContact, PublicServiceContact
@@ -10,7 +8,7 @@ import {
   PublicServiceContactSchema,
   FieldErrors 
 } from '../schemas/contactSchemas';
-import { generateUniqueId } from '../utils/formUtils'; 
+import { generateUniqueId } from '../utils/idUtils'; // Updated import
 import { z } from 'zod';
 import { useContactsStore } from '../stores/contactsStore'; 
 

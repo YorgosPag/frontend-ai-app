@@ -1,4 +1,3 @@
-
 // src/components/icons/SearchIcon.tsx
 import React from 'react';
 

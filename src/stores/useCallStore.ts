@@ -2,7 +2,7 @@
 import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
 import type { Call, VoipError, CallStatus } from '../types/callTypes';
-import { generateUniqueId } from '../../utils/formUtils'; // For mock data
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import path
 
 interface CallState {
   activeCalls: Call[];

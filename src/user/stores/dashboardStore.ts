@@ -1,7 +1,7 @@
 // src/user/stores/dashboardStore.ts
 import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
-import type { DashboardWidgetConfig } from '../../dashboard/widgets/widgetsRegistry';
+import type { DashboardWidgetConfig } from '../../dashboard/widgets/widgetBaseComponents'; // Updated import
 import { dashboardWidgets as allRegisteredWidgets } from '../../dashboard/widgets/widgetsRegistry';
 import {
   type UserWidgetPreference,

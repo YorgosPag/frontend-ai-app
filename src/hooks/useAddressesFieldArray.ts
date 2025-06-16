@@ -1,7 +1,7 @@
 // src/hooks/useAddressesFieldArray.ts
 import { useState, useCallback } from 'react';
 import type { Address } from '../types';
-import { generateUniqueId } from '../utils/formUtils';
+import { generateUniqueId } from '../utils/idUtils';
 
 interface UseAddressesFieldArrayReturn {
   addresses: Address[];

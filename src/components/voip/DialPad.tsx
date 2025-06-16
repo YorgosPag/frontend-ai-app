@@ -58,7 +58,8 @@ const DialPad: React.FC = () => {
             id: `dialpad-contact-${Date.now()}`, // Temporary contact ID
             displayName: normalizedNumber, // Use number as display name
             contactType: 'naturalPerson' as ContactType 
-        }
+        },
+        subject: 'Κλήση από Πληκτρολόγιο' // Pass generic subject
       }
     );
     setIsCalling(false);

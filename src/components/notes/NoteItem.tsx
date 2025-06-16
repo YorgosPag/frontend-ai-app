@@ -14,7 +14,7 @@ import type { Note, Attachment } from '../../notes/types/noteTypes';
 import type { IconName } from '../../types/iconTypes';
 import { uiStrings, noteTypeTranslations, noteVisibilityTranslations } from '../../config/translations';
 import { mockUsers } from '../../data/mocks/users';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 
 const MAX_ATTACHMENT_SIZE_MB_EDIT = 2;
 const MAX_ATTACHMENTS_COUNT_EDIT = 3;
@@ -360,5 +360,6 @@ const NoteItem: React.FC<NoteItemProps> = React.memo(({
     </div>
   );
 });
+
 NoteItem.displayName = 'NoteItem';
 export default NoteItem;

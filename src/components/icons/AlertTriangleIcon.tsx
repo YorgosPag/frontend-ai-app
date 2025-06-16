@@ -1,3 +1,4 @@
+
 // src/components/icons/AlertTriangleIcon.tsx
 import React from 'react';
 

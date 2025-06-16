@@ -1,6 +1,6 @@
 // src/dashboard/widgets/people/UserImpactLogWidget.tsx
 import React from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry'; // Relative path
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 
 interface UserImpactLogWidgetProps {
   config: DashboardWidgetConfig;

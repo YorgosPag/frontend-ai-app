@@ -1,4 +1,3 @@
-
 // src/components/icons/TrashIcon.tsx
 import React from 'react';
 

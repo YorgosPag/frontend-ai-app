@@ -1,5 +1,5 @@
 // src/user/preferences/dashboardPreferences.ts
-import type { DashboardWidgetConfig } from '../../dashboard/widgets/widgetsRegistry';
+import type { DashboardWidgetConfig } from '../../dashboard/widgets/widgetBaseComponents'; // Updated import
 import { dashboardWidgets as allRegisteredWidgets } from '../../dashboard/widgets/widgetsRegistry';
 import type { AppRole } from '../../auth/roles';
 import { ROLES } from '../../auth/roles'; // Import ROLES for default checking

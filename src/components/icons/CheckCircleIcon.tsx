@@ -1,3 +1,4 @@
+
 // src/components/icons/CheckCircleIcon.tsx
 // Heroicons: check-circle (same as SuccessCircleIcon, but might be used in different contexts)
 import React from 'react';

@@ -1,6 +1,6 @@
 // src/dashboard/widgets/kpis/TaskCompletionRateWidget.tsx
 import React from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry';
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 
 interface TaskCompletionRateWidgetProps {
   config: DashboardWidgetConfig;

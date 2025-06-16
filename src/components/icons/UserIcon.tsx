@@ -1,4 +1,3 @@
-
 // src/components/icons/UserIcon.tsx
 import React from 'react';
 

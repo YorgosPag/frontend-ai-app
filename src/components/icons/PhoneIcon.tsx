@@ -1,4 +1,3 @@
-
 // src/components/icons/PhoneIcon.tsx
 import React from 'react';
 

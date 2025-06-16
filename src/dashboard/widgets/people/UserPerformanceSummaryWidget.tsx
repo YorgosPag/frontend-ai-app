@@ -1,6 +1,6 @@
 // src/dashboard/widgets/people/UserPerformanceSummaryWidget.tsx
 import React from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry'; // Relative path
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 // import { useUsersStore } from '../../../stores/usersStore'; // Assuming a store for user data
 
 interface UserPerformanceSummaryWidgetProps {

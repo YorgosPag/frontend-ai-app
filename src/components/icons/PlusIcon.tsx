@@ -1,4 +1,3 @@
-
 // src/components/icons/PlusIcon.tsx
 import React from 'react';
 

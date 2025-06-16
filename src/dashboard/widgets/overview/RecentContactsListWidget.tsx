@@ -1,6 +1,6 @@
 // src/dashboard/widgets/overview/RecentContactsListWidget.tsx
 import React, { useMemo } from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry';
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 import { useContactsStore } from '../../../stores/contactsStore';
 import { useUIStore } from '../../../stores/uiStore';
 import Avatar from '../../../components/Avatar';

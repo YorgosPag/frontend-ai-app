@@ -1,3 +1,4 @@
+
 // src/components/AiDraftEmailModal.tsx
 import React, { useState, useEffect, useRef } from 'react';
 import toast from 'react-hot-toast';

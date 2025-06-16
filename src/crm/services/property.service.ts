@@ -2,7 +2,7 @@
 import type { PropertyType } from '../types/propertyTypes';
 import { PropertySchema } from '../schemas/propertySchemas';
 import { propertiesDB, floorsDB, projectsDB } from '../data/mockCrmData'; // Added projectsDB
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 import { z } from 'zod';
 
 const MOCK_API_DELAY_MS = 170;

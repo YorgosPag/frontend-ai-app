@@ -1,6 +1,6 @@
 // src/evaluations/widgets/TeamEvaluationWidget.tsx
 import React, { useState, useEffect } from 'react';
-import type { DashboardWidgetConfig } from '../../dashboard/widgets/widgetsRegistry';
+import type { DashboardWidgetConfig } from '../../dashboard/widgets/widgetBaseComponents'; // Updated import
 import { fetchEvaluations } from '../services/evaluation.service';
 import type { Evaluation } from '../models/Evaluation';
 

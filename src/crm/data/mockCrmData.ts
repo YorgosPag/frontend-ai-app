@@ -9,7 +9,7 @@ import type { PropertyAccessoryType } from '../types/propertyAccessoryTypes';
 import type { PipelineStage, PipelineEntry } from '../types/pipelineTypes'; 
 import type { Activity } from '../types/activityTypes'; 
 import type { Document } from '../types/documentTypes';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 import { mockUsers } from '../../data/mocks/users'; // Import mockUsers for IDs
 
 const now = new Date().toISOString();
@@ -416,7 +416,7 @@ export const documentsDB: Document[] = [
     relatedEntityType: 'project',
     relatedEntityId: 'proj-alpha-001',
     documentCategory: 'license',
-    description: 'Η κύρια οικοδομική άδεια για το έργο "Ηλιαχτίδα Πάρνηθας".',
+    description: 'Η κύρια οικοδομική άδεια για το έργο "Ηλιαχτίδα Πάρνηθas".',
     updatedAt: sixMonthsAgo,
   },
   {

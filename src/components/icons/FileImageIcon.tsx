@@ -1,3 +1,4 @@
+
 // src/components/icons/FileImageIcon.tsx
 import React from 'react';
 

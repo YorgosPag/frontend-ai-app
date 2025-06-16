@@ -48,7 +48,7 @@ export { default as SearchIcon } from './SearchIcon';
 export { default as SettingsIcon } from './SettingsIcon';
 export { default as SignalIcon } from './SignalIcon'; 
 export { default as SparklesIcon } from './SparklesIcon';
-export { default as SpinnerIcon } from './SpinnerIcon';
+export { SpinnerIcon } from './SpinnerIcon'; // Changed to named export
 export { default as SuccessCircleIcon } from './SuccessCircleIcon';
 export { default as TelegramIcon } from './TelegramIcon';
 export { default as TikTokIcon } from './TikTokIcon';

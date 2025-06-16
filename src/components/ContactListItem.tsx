@@ -1,3 +1,4 @@
+
 // src/components/ContactListItem.tsx
 import React from 'react';
 import type { Contact } from '../types';

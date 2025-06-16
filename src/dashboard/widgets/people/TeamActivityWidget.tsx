@@ -1,6 +1,6 @@
 // src/dashboard/widgets/people/TeamActivityWidget.tsx
 import React from 'react';
-import type { DashboardWidgetConfig } from '../widgetsRegistry'; // Relative path
+import type { DashboardWidgetConfig } from '../widgetBaseComponents'; // Updated import
 // import { useTeamsStore } from '../../../stores/teamsStore'; // Assuming a store for team data
 
 interface TeamActivityWidgetProps {

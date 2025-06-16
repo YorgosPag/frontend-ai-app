@@ -2,7 +2,7 @@
 import type { ProjectType } from '../types/projectTypes';
 import { ProjectSchema, ProjectObjectSchema } from '../schemas/projectSchemas';
 import { projectsDB, companiesDB } from '../data/mockCrmData';
-import { generateUniqueId } from '../../utils/formUtils';
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import
 import { z } from 'zod';
 import type { AppRole } from '../../auth/roles';
 import { hasPermission, PERMISSIONS } from '../../auth/permissions';

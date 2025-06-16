@@ -55,9 +55,8 @@ const ContactCard: React.FC<ContactCardProps> = React.memo(({
                 id: contact.id,
                 contactType: contact.contactType,
                 displayName,
-            }
-            // We could add a subject here if relevant from ContactCard context
-            // subject: `Κλήση από κάρτα επαφής: ${displayName}` 
+            },
+            subject: `Κλήση προς ${displayName}` // Pass subject
         }
     );
   };

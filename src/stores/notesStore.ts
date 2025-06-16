@@ -3,7 +3,8 @@ import { create } from 'zustand';
 import { immer } from 'zustand/middleware/immer';
 import type { Note, UserReference, NoteType, EntityType, NoteVisibility } from '../types';
 import { initialNotes } from '../config/initialData';
-import { generateUniqueId } from '../utils/formUtils';
+// workflowService import is no longer needed here for dispatching NOTE_ADDED
+import { generateUniqueId } from '../../utils/idUtils'; // Updated import path
 
 interface NotesState {
   notes: Note[];

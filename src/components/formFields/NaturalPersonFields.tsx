@@ -1,3 +1,4 @@
+
 // src/components/formFields/NaturalPersonFields.tsx
 import React from 'react';
 import type { ContactFormState } from '../../hooks/useContactForm';
