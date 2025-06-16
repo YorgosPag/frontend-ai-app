@@ -4195,3 +4195,21 @@ M	vite.config.ts
 Reset branch 'main'
 [Δευ 16/06/2025 14:57:57,67] Successfully on branch 'main'. 
 [Δευ 16/06/2025 14:57:57,80] Adding all changes to Git (respecting .gitignore)... 
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'upload_log.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.ts', LF will be replaced by CRLF the next time Git touches it
+[Δευ 16/06/2025 14:57:58,50] Committing changes... 
+[main 03e1ca9] Auto-update from script 'nestor_ftb_01(12).zip' at Δευ 16/06/2025 14:57:58,63
+ 3 files changed, 406 insertions(+), 5 deletions(-)
+[Δευ 16/06/2025 14:58:00,02] Changes committed with message: Auto-update from script 'nestor_ftb_01(12).zip' at Δευ 16/06/2025 14:57:58,63 
+[Δευ 16/06/2025 14:58:00,15] Pushing changes to GitHub on branch 'main' (using --force)... 
+To https://github.com/YorgosPag/frontend-ai-app.git
+   c943362..03e1ca9  main -> main
+[Δευ 16/06/2025 14:58:02,30] Changes pushed successfully to GitHub. 
+[Δευ 16/06/2025 14:58:05,32] --- Script Finished Successfully --- 
+[Δευ 16/06/2025 14:58:05,47] Summary: 
+[Δευ 16/06/2025 14:58:05,59]   Processed ZIP: nestor_ftb_01(12).zip 
+[Δευ 16/06/2025 14:58:05,73]   Files in destination: 4917 
+[Δευ 16/06/2025 14:58:05,84]   Folders in destination: 949 
+[Δευ 16/06/2025 14:58:05,97]   'node_modules' folder was preserved and excluded from Git commit. 
+[Δευ 16/06/2025 14:58:06,11] ======================================== 
